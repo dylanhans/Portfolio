@@ -16,59 +16,58 @@
       <h3 class="text-black text-lg">Queen's University</h3>
       <div class="text-neutral-500 mb-0.5">2019 — 2024</div>
     </div>
-    <p class="byline">B.Sc in Computer Engineering — Specialization in Artificial Intelligence</p>
+    <p class="byline"><b>B.Sc in Computer Engineering — Specialization in Artificial Intelligence</b></p>
   </div>
 
   <h4 class="font-medium mt-4 mb-1">Academic Involvement:</h4>
   <ul>
-    
-    <li><b>TA</b> for ELEC377 (Operating Systems)</li>
+    <li><b>RA</b> for Research Project (<a class="link" href="https://smithengineering.queensu.ca/ece/undergraduate/courses/elec-497">APSC 497</a>)</li>
+    <li><b>TA</b> for Operating Systems (<a class="link" href="https://smithengineering.queensu.ca/ece/undergraduate/courses/elec-377">ELEC 377</a>)</li>
     <li>
-      <b>TA</b> for APSC 141 (Programming I)
+      <b>TA</b> for Programming I (<a class="link" href="https://smithengineering.queensu.ca/first-year/first-year-courses">APSC 141</a>)
     </li>
     <li>
-      <b>TA</b> for APSC 143 (Programming II)
-    </li>
-    <li>
-      <b>RA</b> for APSC 497 (Research)
+      <b>TA</b> for Programming II (<a class="link" href="https://smithengineering.queensu.ca/first-year/first-year-courses">APSC 143</a>)
     </li>
   </ul>
 
   <h4 class="font-medium mt-4 mb-1">Extracurricular:</h4>
   <ul>
   
-    <li><b>Quantitative Machine Learning Engineer</b> at QUANTT</li>
-    <li><b>Financial Director</b> at QBMET</li>
+    <li><b>Quantitative Machine Learning Engineer</b> at  <a class="link" href="http://quantt.ca/">QUANTT</a></li>
     <li>
-      <b> FD | Coordinator</b> at QSAA
+      <b> Machine Learning Engineer</b> at <a class="link" href="https://qmind.ca/">QMIND</a>
+    </li>
+    <li><b>Financial Director</b> at <a class="link" href="https://qbmet.ca/">QBMET</a></li>
+    <li>
+      <b> FD | Coordinator</b> at  <a class="link" href="https://www.instagram.com/queens.saa/?hl=en">QSAA</a>
     </li>
     <li>
-      <b>  Coordinator</b> at CIRQUE
-    </li>
-    <li>
-      <b> ML Engineer</b> at QMIND
+      <b> Coordinator</b> at <a class="link" href="https://queenscirque.ca/">CIRQUE</a>
     </li>
   </ul>
 
-  <h4 class="font-medium mt-4 mb-1">Completed Technical Courses:</h4>
+  <h4 class="font-medium mt-4 mb-1">Core Technical Courses:</h4>
   <ul>
-    <li>Machine Learning & Deep Learning (CS 221)</li>
-    <li>Data Structures and Algorithms (CS 223)</li>
-    <li>Apple Discrete Math (CS 228)</li>
-    <li>Algorithms (CS 243)</li>
-    <li>Operating Systems (CS 252r)</li>
-    <li>Software Development (CS 252r)</li>
-    <li>Software Quality Assurance (CS 263)</li>
-    <li>Software Design & Development (MIT 6.824)</li>
-    <li>Neural & Genetic Networks (MIT 6.838)</li>
-    <li>Programming Language Processor (MIT 6.843)</li>
-    <li>Engineering Design and Practice (Stat 210)</li>
-    <li>Probability (Stat 211)</li>
-    <li>Database Management (Stat 211)</li>
-    <li>System Architecture (Stat 211)</li>
-    <li>Performance Analysis (Stat 211)</li>
-    <li>Calculus I (Stat 211)</li>
-    <li>Calculus II (Stat 211)</li>
+    <li>Machine Learning & Deep Learning (<a class="link" href="https://smithengineering.queensu.ca/ece/undergraduate/courses/elec-425">ELEC 425</a>)</li>
+    <li>A.I. & Interactive Systems (<a class="link" href="https://smithengineering.queensu.ca/ece/undergraduate/courses/elec-472">ELEC 472</a>)</li>
+    <li>Data Structures and Algorithms (<a class="link" href="https://smithengineering.queensu.ca/ece/undergraduate/courses/elec-379">ELEC 379</a>)</li>
+    <li>Apple Discrete Math (<a class="link" href="https://smithengineering.queensu.ca/ece/undergraduate/courses/elec-270">ELEC 270</a>)</li>
+    <li>Algorithms (<a class="link" href="https://ciscwww.cs.queensu.ca/courses/cisc365/">CMPE 365</a>)</li>
+    <li>Probability & Random Processes(<a class="link" href="https://smithengineering.queensu.ca/ece/undergraduate/courses/elec-326">ELEC 326</a>)</li>
+    <li>Operating Systems (<a class="link" href="https://smithengineering.queensu.ca/ece/undergraduate/courses/elec-377">ELEC 377</a>)</li>
+    <li>Software Development (<a class="link" href="https://www.cs.queensu.ca/undergraduate/courses/CISC-320">CMPE 320</a>)</li>
+    <li>Calculus II (<a class="link" href="https://mast.queensu.ca/~ableson/Teaching.shtml">APSC 172</a>)</li>
+    <li>Software Quality Assurance (<a class="link" href="https://www.cs.queensu.ca/undergraduate/courses/CISC-327">CMPE 327</a>)</li>
+    <li>Differential Equations (<a class="link" href="https://www.queensu.ca/artsci_online/courses/ordinary-differential-equations-1">MTHE 235</a>)</li>
+    <li>Principles of Design & Development (<a class="link" href="https://smithengineering.queensu.ca/ece/undergraduate/courses/elec-390">ELEC 390</a>)</li>
+    <li>Programming Language Processor (<a class="link" href="https://www.cs.queensu.ca/undergraduate/courses/CISC-458">CMPE 458</a>)</li>
+    <li>Database Management Systems (<a class="link" href="https://www.cs.queensu.ca/undergraduate/courses/CISC-332">CMPE 332</a>)</li>
+    <li>System Architecture (<a class="link" href="https://smithengineering.queensu.ca/ece/undergraduate/courses/elec-470">ELEC 470</a>)</li>
+    <li>Information Structures (<a class="link" href="https://smithengineering.queensu.ca/ece/undergraduate/courses/elec-278">ELEC 278</a>)</li>
+    <li>Performance Analysis (<a class="link" href="https://smithengineering.queensu.ca/ece/undergraduate/courses/soft-437">SOFT 437</a>)</li>
+    <li>Calculus I (<a class="link" href="https://mast.queensu.ca/~ableson/Teaching.shtml">APSC 171</a>)</li>
+    <li>Digital Systems Engineering (<a class="link" href="https://smithengineering.queensu.ca/ece/undergraduate/courses/elec-374">ELEC 374</a>)</li>
 
   </ul>
 
