@@ -6,43 +6,36 @@
   const featuredProjects = [
     {
       name: "Split",
-      href: "/projects#split",
       desc: "venture to finance payments for in-store purchases",
       aside: "currently in development",
     },
     {
       name: "Trading Orderbook",
-      href: "/projects#trade",
       desc: "manage stock orders in command line interface",
       aside: "low latency system for hedge funds",
     },
     {
       name: "ECommerce CLI Platform",
-      href: "/projects#cli",
       desc: "ebay clone with user function, orders, and marketplace",
       aside: "responsive platform with edge cases",
     },
     {
       name: "Muscle Bead Insertion Software Training",
-      href: "/projects#mbi",
       desc: "vr software training and real-time feedback for residency ",
       aside: "hackathon 2nd place",
     },
     {
       name: "Investment Analytics Platform for Stocks",
-      href: "/projects#stocks",
       desc: "interactive finance interface for technical analysis",
       aside: "scan financial reports, risk, and plotting capabilities",
     },
     {
       name: "Artificial Robotic Manipulation System",
-      href: "/projects#robotics",
       desc: "human-robot interaction with enhanced control and vision",
       aside: "0.8s contraction, 3kg payload, top 5",
     },
     {
       name: "IBM Compiler Integration",
-      href: "/projects#ibm",
       desc: "compiler creation & language processor",
       aside: "97% evaluation score",
     },
