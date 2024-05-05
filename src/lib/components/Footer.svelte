@@ -1,6 +1,6 @@
 <footer class="layout-md mt-10 text-lg flex flex-row relative">
   <div class = "icon-container" >
-    <img src="src/lib/components/dylan.png" alt="Dylan Profile Pic" class="icon">
+    <img src="/dylan.svg" alt="Dylan Profile Pic" class="icon">
   </div>
   <div class="footer-content">
     <div class="row">
