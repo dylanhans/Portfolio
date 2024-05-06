@@ -16,4 +16,4 @@ experimentation. The result is a unique software artifact. It combines work as a
 solo engineer, crafting a complex, performant streaming system, and as a
 designer of deeply collaborative software.
 
-**Links: [GitHub](), [Website]()**
+**Links: [GitHub](https://github.com/dylanhans), [Website]()**

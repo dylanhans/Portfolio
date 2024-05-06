@@ -8,5 +8,5 @@ image: auto.jpg
 
 Created an autonomous vehicle in MATLAB & C to record data when analyzing potholes in a simulated real-world domain using lidar, radar, and camera modules. Integration analysis demonstrated savings of $100 million over 10 years for the City of Toronto.
 
-**Links: [GitHub](),
+**Links: [GitHub](https://github.com/dylanhans),
 [Report]()**

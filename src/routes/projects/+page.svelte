@@ -76,8 +76,7 @@
   </p>
 
   <p class="text-lg mb-4">
-    You'll see that I particularly like programming languages, distributed
-    systems, machine learning.
+    I focus my efforts on financial applications and concepts, integrating programming, distributed systems, machine learning, and algorithms.
   </p>
 
 </section>
