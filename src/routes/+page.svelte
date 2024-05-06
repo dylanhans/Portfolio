@@ -68,7 +68,7 @@
     </p>
 
     <p>
-      Towards that goal, I am invested in financial technology and investment management development, which form the essential foundation for modern technology and applications.
+      Towards that goal, I am commited to financial technology and investment management development, which form the building blocks for modern technology and applications.
     </p>
   </div>
 
