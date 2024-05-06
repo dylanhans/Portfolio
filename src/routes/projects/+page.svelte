@@ -69,10 +69,8 @@
   <h2 class="heading2">Academic and Personal</h2>
 
   <p class="text-lg mb-4">
-    I view building software in the open as a mode of <em
-      class="font-serif text-[110%] leading-[100%]">creative exploration</em
-    >. It lets me quickly act on inspiration, delve into new topics, and make
-    tools that improve people's lives.
+    This is my avenue for creative exploration, embracing talent and passion to transform inspiration into valuable projects,
+    study new topics, and develop solutions that foster growth and innovation.
   </p>
 
   <p class="text-lg mb-4">

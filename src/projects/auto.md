@@ -2,7 +2,7 @@
 title: Autopilot System
 date: 2021-11-23
 topics: ["C", "Matlab", "Computer Vision", "Case Study"]
-lead: State-of-the-art, real-time semantic segmentation with MobileNetV3.
+lead: autonomous machine for road integrity analysis in MATLAB simulation
 image: auto.jpg
 ---
 

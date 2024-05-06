@@ -92,17 +92,6 @@
   </div>
 
   <div class="space-y-5">
-   
-
-    <p>
-      Prevously, I've graduated from <a class="link" href=""
-      >Queen's University</a
-    > in April 2024, where I was a Teaching Assistant for
-    <a class="link" href=""
-    >Programming</a>  and an upper-level computer engineering classes <a class="link" href=""
-      >Operating Systems,</a
-    > Research Assistant, and apart of <a class="link" href="">QMIND</a>, <a class="link" href="">QUANTT</a>,  <a class="link" href="">CIRQUE</a>,  <a class="link" href="">QBMET</a>, and <a class="link" href="">QES</a>.
-
     <p style="font-size: smaller; "><b style="font-weight: 450;">Programming Stack:</b> Python, C/C++, Java, HTML, CSS, JavaScript, MATLAB, R, SQL, Bash/Unix</p>   
     <p style="font-size: smaller; margin: 0;"><b style="font-weight: 450;">Libraries / Frameworks:</b> Pandas, PyTorch, TensorFlow, Matplotlib, NumPy, REST, Node, React, Redux</p>
     <p style="font-size: smaller; margin: 0;"><b style="font-weight: 450;">Tools & Practices:</b> Git, Jira, Agile, CI/CD, Tableau, Docker, Microsoft Office</p>

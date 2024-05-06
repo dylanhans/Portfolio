@@ -1,7 +1,7 @@
 ---
 title: ECommerce CLI Platform
 date: 2022-01-23
-topics: ["Python", "Command Line Interface"]
+topics: ["Python", "Command Line Interface", "Sprints", "Integration Testing"]
 lead: Variational autoencoder that learns latent features in handwriting.
 image: CLI.png
 ---
