@@ -45,7 +45,7 @@
       <a rel="external" href={images[`../../projects/${data.image}`]?.default}>
         <img
           src={images[`../../projects/${data.image}`]?.default}
-          alt="{data.title} preview image"
+          alt=""
           class:border={data.image_border}
         />
       </a>

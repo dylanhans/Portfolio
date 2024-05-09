@@ -2,15 +2,14 @@
 title: ECommerce CLI Platform
 date: 2022-01-23
 topics: ["Python", "Command Line Interface", "Sprints", "Integration Testing"]
-lead: Variational autoencoder that learns latent features in handwriting.
+lead: list products and order, similar to Ebay
 image: CLI.png
 ---
 
-I implemented the model in Keras and trained it on a dataset of over 400,000
-handwritten characters. You can see the results in the web demo below, which
-stitches the outputs together onto a canvas. Without any prior knowledge, the
-model is able to isolate six of the most important characteristics in human
-handwriting.
+designed CLI marketplace system for a software 'company' specified by a set of their requests. Assessed
+requirements, specifications, and met design quality plan. 
+
+application includes register functionality, login interface, product descriptions and account information through the use of Python, team Sprints, SQL, Docker, containers, and CI/CD. Measurement and software inspections conducted, integration tests were completed.
 
 **Links: [GitHub](https://github.com/dylanhans),
 [Course Page]()**
