@@ -12,12 +12,12 @@
     {
       name: "Trading Orderbook",
       desc: "manage stock orders in command line interface",
-      aside: "low latency system for hedge funds",
+      aside: "low latency system for firms, hedge funds",
     },
     {
-      name: "ECommerce CLI Platform",
-      desc: "ebay clone with user function, orders, and marketplace",
-      aside: "responsive platform with edge cases",
+      name: "Pricing Models",
+      desc: "streamlit app with monte carlo, black-schols, and more",
+      aside: "analyze data to make informed decisions",
     },
     {
       name: "Muscle Bead Insertion Software Training",
