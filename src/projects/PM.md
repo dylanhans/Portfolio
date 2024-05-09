@@ -3,7 +3,7 @@ title: Pricing Models
 date: 2024-01-23
 topics: ["Python", "Streamlit", "Data"]
 lead: monte carlo, black-schols, and more
-image: montecarlo.png
+image: PM.png
 ---
 
 designed several prediction models using Python and Streamlit for integration purposes that provide invaluable insights into option valuation, enabling investors and financial professionals to make informed decisions.
