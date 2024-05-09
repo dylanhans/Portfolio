@@ -52,7 +52,7 @@
   id="dylan-text"
 >
   <span class="g"></span> quantitative software engineer<span class="g">,</span><br />
-  <span class="g">interested in</span> capital markets <span class="g">and</span> finance.<span class="g"></span>
+  <span class="g">interested in</span> building applications, <span class="g">and</span> fintech .<span class="g"></span>
 </p>
 
 <div class="layout-md text-lg space-y-14">
