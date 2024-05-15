@@ -11,5 +11,5 @@ educational platform that empowers teaching professionals’ to efficiently asse
 leading end-to-end development of a dynamic, responsive web application using React, Vite, TailWind, Python, NodeJs, Redux, MongoDB and Google Cloud, etc. ensuring scalability, performance, robust functionality, and optimal user experience. 
 
 
-**Links: [GitHub](https://github.com/dylanhans),
+**Links: [GitHub](https://github.com/dylanhans/RCProject),
 [Website](https://rcproject.vercel.app/)**

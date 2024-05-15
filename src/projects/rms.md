@@ -14,5 +14,5 @@ supervised under a Professor, the prototype is to be integrated onto the faculty
 
 
 
-**Links: [GitHub](https://github.com/dylanhans),
+**Links: [GitHub](https://github.com/dylanhans/roboticArm_Gripper),
 [Course Page]()**

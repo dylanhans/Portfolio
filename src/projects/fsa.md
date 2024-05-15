@@ -9,5 +9,5 @@ image: fsa_v2.png
  engineered a Python-based financial analysis assistant on Streamlit integrating OpenAI interaction capabilities with real-time stock price retrieval,
  technical analysis (SMA, EMA, RSI, MACD), financial reports, risk, media, and interactive plotting functionality.
 
-**Links: [GitHub](https://github.com/dylanhans),
+**Links: [GitHub](https://github.com/dylanhans/financialAssistant),
 [Platform]()**
