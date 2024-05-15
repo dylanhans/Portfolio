@@ -2,7 +2,7 @@
 title: Muscle Bead Insertion - Software Training
 date: 2023-02-23
 topics: ["C", "VR", "Microcontrollers"]
-lead: Queen's Medical Hackathon 
+lead: queen's medical hackathon 
 image: vr1.png
 ---
 

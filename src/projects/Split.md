@@ -1,7 +1,7 @@
 ---
 title: Split
 date: 2024-05-02
-topics: ["Python", "React", "Swift", "Figma", "Material UI", "Full Stack"]
+topics: ["Python", "React", "Swift", "Full Stack", "..."]
 lead: venture to finance payments for in-store purchases
 image: split_v3.png
 ---
