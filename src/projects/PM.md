@@ -1,6 +1,6 @@
 ---
 title: Pricing Models
-date: 2024-01-23
+date: 2023-11-23
 topics: ["Python", "Streamlit", "Data"]
 lead: monte carlo, black-schols, and more
 image: PM.png

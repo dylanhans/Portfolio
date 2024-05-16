@@ -1,6 +1,6 @@
 ---
 title: Investment Analytics Agent for Stocks
-date: 2024-02-23
+date: 2024-01-23
 topics: ["Python", "OpenAI", "Streamlit"]
 lead: acquire NYSE financial stock data and reports
 image: fsa_v2.png
