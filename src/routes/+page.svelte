@@ -95,8 +95,12 @@
     <p style="font-size: smaller; "><b style="font-weight: 450;">Programming Stack:</b> Python, C/C++, Java, HTML, CSS, JavaScript, MATLAB, R, SQL, Bash/Unix</p>   
     <p style="font-size: smaller; margin: 0;"><b style="font-weight: 450;">Libraries / Frameworks:</b> Pandas, PyTorch, TensorFlow, Matplotlib, NumPy, REST, Node, React, Redux</p>
     <p style="font-size: smaller; margin: 0;"><b style="font-weight: 450;">Tools & Practices:</b> Git, Jira, Agile, CI/CD, Tableau, Docker, Microsoft Office</p>
-    <p style="font-size: smaller; margin: 0;"><b style="font-weight: 450;">Other interests:</b> building personal projects, investments, reading and fitness.</p>
-
+    <p style="font-size: smaller; margin: 0;"><b style="font-weight: 450;">Other Interests:</b> building personal projects, investments, reading and fitness.</p>
+    <p style="font-size: smaller; margin: 0;">
+      <b style="font-weight: 450;">
+          <a href="https://github.com/dylanhans/portfolio_main" style="text-decoration: underline;">Website Code</a>
+      </b>
+  </p>
   </div>
 
 </div>
