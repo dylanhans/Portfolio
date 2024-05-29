@@ -2,7 +2,8 @@
 title: Trading Dashboard
 date: 2024-03-03
 topics: ["Python", 'Ruby', "JS"]
-lead: web dashboard for trading and data visualization
+lead: dashboard for stock trading and data visualization
+image: stockdash.png
 ---
 
 --
