@@ -10,6 +10,6 @@ split revolutionizes in-store purchases by offering seamless payment financing d
 
 the software system represents an innovative groundbreaking financial tool that empowers users while ensuring secure transactions and financial privacy through their existing banking institutions.
 
-**In Development | Links: [GitHub](https://github.com/dylanhans/Split), 
-[Website](),
+**In Development | Links: [🔒 GitHub](https://github.com/dylanhans/), 
+[Website](http://splitfinancial.ca/),
 [App]()**
