@@ -1,15 +1,17 @@
 ---
-title: Split
-date: 2024-05-02
-topics: ["Python", "React", "Swift", "Full Stack", "..."]
+title: Split Financial
+date: 2024-07-02
+topics: ["React", "AWS", "TS", "NextJS", "Swift", "Python", "Full Stack", "..."]
 lead: venture to finance payments for in-store purchases
 image: split_v3.png
 ---
 
-split revolutionizes in-store purchases by offering seamless payment financing directly through Apple Pay and Google Wallet. With swift and various frameworks, this application enables users to divide payments into manageable installments with minimal to no interest after soft credit checks. It simplifies the shopping experience, providing flexible payment options at the point of sale.
+Developing a cutting-edge banking platform that empowers users to finance in-store purchases by seamlessly integrating with their preferred digital wallets. Split Financial offers flexible, interest-free options for qualified users, along with the choice for long-term financing.
 
-the software system represents an innovative groundbreaking financial tool that empowers users while ensuring secure transactions and financial privacy through their existing banking institutions.
+With swift and various frameworks, this application enables users to divide payments into manageable installments with minimal to no interest after a short application that performs a soft credit check and a quantitative model to evaluate user eligibility through calculating metrics from their retrieved equifax credit bureau data. The current tech stack is react, tailwind, next.js, typescript, redux, python, on AWS, integrating google cloud, plaid, dwolla, appwrite, and firebase auth. These will change in the near future to the appropriate infrastructure that can handle banking institution loads and scalability.
 
-**In Development | Links: [🔒 GitHub](https://github.com/dylanhans/), 
-[Website](http://splitfinancial.ca/),
+At this time in the building stage, users can sign-in through their existing banking institutions using Plaid for secure transactions and financial privacy.
+
+**In Development | Links: [GitHub](https://github.com/dylanhans/SplitFinancial), 
+[Website](),
 [App]()**
