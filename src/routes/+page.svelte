@@ -5,14 +5,14 @@
 
   const featuredProjects = [
     {
-      name: "Split",
+      name: "Split Financial",
       desc: "venture to finance payments for in-store purchases",
       aside: "currently in development",
     },
     {
       name: "Trading Orderbook",
       desc: "manage stock orders in command line interface",
-      aside: "low latency system for firms, hedge funds",
+      aside: "low latency system for firms, hedge funds, in dev.",
     },
     {
       name: "Pricing Models",
@@ -25,17 +25,17 @@
       aside: "hackathon 2nd place",
     },
     {
-      name: "Investment Analytics Platform for Stocks",
+      name: "AI Financial Analytics Platform for Stocks",
       desc: "interactive finance interface for technical analysis",
       aside: "scan financial reports, risk, and plotting capabilities",
     },
     {
-      name: "Artificial Robotic Manipulation System",
+      name: "Autonomous Arm System for Human-Robot Interaction",
       desc: "human-robot interaction with enhanced control and vision",
       aside: "0.8s contraction, 3kg payload, top 5",
     },
     {
-      name: "IBM Compiler Integration",
+      name: "IBM Compiler & FrameworkIntegration",
       desc: "compiler creation & language processor",
       aside: "97% evaluation score",
     },
@@ -58,7 +58,7 @@
 <div class="layout-md text-lg space-y-14">
   <div class="space-y-5">
     <p>
-      I've worked at Queen's University assisting in teaching and researching throughout my Computer Engineering degree, specializing in artificial intelligence. 
+      I've worked at Queen's University assisting in teaching and researching throughout my Computer Engineering degree, specializing in software engineering. 
     </p>
 
     <p>
@@ -92,9 +92,9 @@
   </div>
 
   <div class="space-y-5">
-    <p style="font-size: smaller; "><b style="font-weight: 450;">Programming Stack:</b> Python, C/C++, Java, HTML, CSS, JavaScript, MATLAB, R, SQL, Bash/Unix</p>   
-    <p style="font-size: smaller; margin: 0;"><b style="font-weight: 450;">Libraries / Frameworks:</b> Pandas, PyTorch, TensorFlow, Matplotlib, NumPy, REST, Node, React, Redux</p>
-    <p style="font-size: smaller; margin: 0;"><b style="font-weight: 450;">Tools & Practices:</b> Git, Jira, Agile, CI/CD, Tableau, Docker, Microsoft Office</p>
+    <p style="font-size: smaller; "><b style="font-weight: 450;">Programming Stack:</b> Python, C/C++, Java, JavaScript, TypeScript, HTML/CSS, SQL</p>   
+    <p style="font-size: smaller; margin: 0;"><b style="font-weight: 450;">Libraries / Frameworks:</b> ReactJS, NodeJS, Express, Rest, AWS, Docker, Kubernetes, Pandas, PyTorch, TensorFlow</p>
+    <p style="font-size: smaller; margin: 0;"><b style="font-weight: 450;">Tools & Practices:</b> Git, Jira, Agile, TDD, CI/CD</p>
     <p style="font-size: smaller; margin: 0;"><b style="font-weight: 450;">Other Interests:</b> building personal projects, investments, reading and fitness.</p>
     <p style="font-size: smaller; margin: 0;">
       <b style="font-weight: 450;">

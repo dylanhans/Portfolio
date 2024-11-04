@@ -16,7 +16,7 @@
       <h3 class="text-black text-lg">Queen's University</h3>
       <div class="text-neutral-500 mb-0.5">2019 — 2024</div>
     </div>
-    <p class="byline"><b>B.Sc in Computer Engineering — Specialization in Artificial Intelligence</b></p>
+    <p class="byline"><b>B.Sc in Computer Engineering — Specialization in Software Engineering</b></p>
   </div>
 
   <h4 class="font-medium mt-4 mb-1">Academic Involvement:</h4>
@@ -114,7 +114,7 @@
       Mentored students 1 to 1 on tangible social, academic, and healthy lifestyle skills to achieve <b>success</b> based on academics and personal experience.
     </li>
     <li>
-      Created weekly plans in collaboration with students to address academic challenges, elevated grades by <b>16%</b> on average and enhanced confidence.
+      Created weekly plans in collaboration with students to address academic challenges, elevated grades by <b>14%</b> on average and enhanced confidence.
     </li>
   </Workplace>
 
@@ -165,8 +165,8 @@
         <b>Top 5 </b> QEC, <b>Top 3 </b> QSAC
       </li>
       <li>
-        <b>2<sup>nd</sup
-        ></b> place in Medical Hackathon at Queen's University
+        <b>Finalist<sup></sup
+        ></b> in Hackathon at Queen's University
       </li>
       <li>Marketing Excellence Award</li>
     </ul>
@@ -186,9 +186,9 @@
     <h3 class="font-medium mb-1">Finance:</h3> 
     <ul>
     <li>
-      <b>CFA</b> Candidate 2024
+      <b>CFA</b> Candidate 2025
     </li>
-    <li><b>FRM</b> Candidate 2025</li>
+    <!-- <li><b>FRM</b> Candidate 2025</li> -->
   </ul>
   </div>
 
