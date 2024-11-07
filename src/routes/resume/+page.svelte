@@ -99,9 +99,7 @@
     <li>
       Advanced the development of a software language parser and interpreter by leveraging <b>TXL</b> to define transformational properties and <b>XML</b> for configurable mappings between <b>Python</b> and <b>C</b> programming constructs, streamlined analysis and communication between intermediates.
     </li>
-    <li>
-      Supervised by the Software and Security Professor at Queens and integrated into the department repository, available for ongoing faculty use. 
-    </li>
+
   </Workplace>
 
   <Workplace
@@ -131,7 +129,7 @@
       Constructed geospatial models to boost collection efficiency, partnered with app. developers to implement efficient design/DB strategies and testing.    </li>
     <li>
       Assisted in improvement of the team’s data application performance through <b>testing and analysis</b>, automating collection processes and efficiency, 
-      and introduced data processing functions to refine and aggregate data, reducing recurrent daily tasks from several hours to <b>less than 35 minutes</b>. 
+      and introduced data processing strategies to refine and aggregate data.
     </li>
   </Workplace>
 
@@ -142,7 +140,7 @@
     location="Remote | Caledon, ON"
   >
     <li>
-      Negotiated client contracts and <b> problem-solved complex challenges </b> by leveraging technical expertise and <b>built 50+</b> client relationships daily.
+      Negotiated client contracts and <b> problem-solved complex challenges </b> by leveraging technical expertise and client relationships daily.
     </li>
     <li>
       Proficiently utilized <b>Salesforce</b> to track and execute <b>CRM strategies</b>, elevating client engagement, and supervised employee training rotations.
