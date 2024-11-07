@@ -93,7 +93,7 @@
 
   <div class="space-y-5">
     <p style="font-size: smaller; "><b style="font-weight: 450;">Programming Stack:</b> Python, C/C++, Java, JavaScript, TypeScript, HTML/CSS, SQL</p>   
-    <p style="font-size: smaller; margin: 0;"><b style="font-weight: 450;">Technologies:</b> ReactJS, NodeJS, Express, Rest, AWS, GCP, Docker, Kubernetes, Pandas, PyTorch, TensorFlow</p>
+    <p style="font-size: smaller; margin: 0;"><b style="font-weight: 450;">Tech:</b> ReactJS, NodeJS, Express, Rest, AWS, GCP, Docker, Kubernetes, Pandas, PyTorch, TensorFlow</p>
     <p style="font-size: smaller; margin: 0;"><b style="font-weight: 450;">Tools & Practices:</b> Git, Jira, Agile, TDD, CI/CD</p>
     <p style="font-size: smaller; margin: 0;"><b style="font-weight: 450;">Other Interests:</b> building personal projects, investments, reading and fitness.</p>
     <p style="font-size: smaller; margin: 0;">
