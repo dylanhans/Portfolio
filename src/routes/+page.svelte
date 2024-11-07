@@ -10,19 +10,9 @@
       aside: "currently in development",
     },
     {
-      name: "Trading Orderbook",
-      desc: "manage stock orders in command line interface",
-      aside: "low latency system for firms, hedge funds, in dev.",
-    },
-    {
-      name: "Pricing Models",
-      desc: "streamlit app with monte carlo, black-schols, and more",
-      aside: "analyze data to make informed decisions",
-    },
-    {
-      name: "Muscle Bead Insertion Software Training",
-      desc: "vr software training and real-time feedback for residency ",
-      aside: "hackathon 2nd place",
+      name: "IBM Compiler & Framework Integration",
+      desc: "compiler creation & language processor",
+      aside: "97% evaluation score",
     },
     {
       name: "AI Financial Analytics Platform for Stocks",
@@ -35,9 +25,19 @@
       aside: "0.8s contraction, 3kg payload, top 5",
     },
     {
-      name: "IBM Compiler & FrameworkIntegration",
-      desc: "compiler creation & language processor",
-      aside: "97% evaluation score",
+      name: "Pricing Models",
+      desc: "streamlit app with monte carlo, black-schols, and more",
+      aside: "analyze data to make informed decisions",
+    },
+    {
+      name: "Muscle Bead Insertion Software Training",
+      desc: "vr software training and real-time feedback for residency ",
+      aside: "hackathon 2nd place",
+    },
+    {
+      name: "Trading Orderbook",
+      desc: "manage stock orders in command line interface",
+      aside: "low latency system for firms, hedge funds, in dev.",
     },
   ];
 </script>
@@ -51,7 +51,7 @@
   class="layout-md text-black text-xl leading-tight font-light mb-10"
   id="dylan-text"
 >
-  <span class="g"></span> quantitative software engineer<span class="g">,</span><br />
+  <span class="g"></span>Software engineer<span class="g">,</span><br />
   <span class="g">interested in</span> building applications, <span class="g">and</span> fintech .<span class="g"></span>
 </p>
 

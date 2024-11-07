@@ -1,6 +1,8 @@
 <footer class="layout-md mt-10 text-lg flex flex-row relative">
   <div class = "icon-container" >
-    <img src="/dylan.jpeg" alt="Dylan Profile Pic" class="icon">
+    <a class="link" href="https://www.linkedin.com/in/dylanhans/">
+      <img src="/dylan.jpeg" alt="Dylan Profile Pic" class="icon">
+    </a>
   </div>
   <div class="footer-content">
     <div class="row">
@@ -16,7 +18,7 @@
     <div class="row">
       <span>Email</span>
       <hr />
-      <a class="link" href="mailto:dylan-hans@outlook.com">19dsh@queensu.ca</a>
+      <a class="link" href="mailto:dylan-hans@outlook.com">dylanhans19@outlook.com</a>
     </div>
   </div>
 </footer>

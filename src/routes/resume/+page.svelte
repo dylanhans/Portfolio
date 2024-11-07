@@ -79,14 +79,14 @@
   <Workplace
     title="Teaching Asssistant"
     company="Queen's University"
-    dates="Sept 2023 – May 2023"
+    dates="Sept 2023 – January 2024"
     location="Kingston, ON"
   >
     <li>
-      Assessed midterms and labs for ELEC377: Operating Systems, alongside APSC141: Programming I and APSC143: Programming II, in Python.
+      Assessed midterms and labs for ELEC377: Operating Systems in Linux and C, alongside APSC141/143: Programming I/II, in Python.
     </li>
     <li>
-      Led weekly labs and problem-solving sessions in Linux and C, emphasizing Kernel and OS principles for real-time and distributed systems. 
+      Facilitated weekly labs and problem-solving sessions in mastering algorithms, kernel, and OS principles for real-time and distributed systems. 
     </li>
   </Workplace>
 
@@ -114,22 +114,21 @@
       Mentored students 1 to 1 on tangible social, academic, and healthy lifestyle skills to achieve <b>success</b> based on academics and personal experience.
     </li>
     <li>
-      Created weekly plans in collaboration with students to address academic challenges, elevated grades by <b>14%</b> on average and enhanced confidence.
+      Created weekly plans in collaboration with students to address academic challenges, elevated grades and enhanced confidence.
     </li>
   </Workplace>
 
   <Workplace
-    title="Operations Engineer Intern"
+    title="Operations and Automation Engineer Intern"
     company="Peel Region"
     dates="June 2022 – Sept 2022"
     location="Caledon, ON"
   >
     <li>
-      Managed two engineers in collecting and presenting high-quality, condition-based GIS data to diverse stakeholders, apart of a pilot <b>research</b> team. 
+      Led a small team to compile precise GIS data for a pilot research initiative, fostering stakeholder collaboration and ensuring project transparency. 
     </li>
     <li>
-      Engineered geospatial models to <b>optimize </b>project efficiency and <b>consulted developers </b>on design and database software strategies via testing.
-    </li>
+      Constructed geospatial models to boost collection efficiency, partnered with app. developers to implement efficient design/DB strategies and testing.    </li>
     <li>
       Assisted in improvement of the team’s data application performance through <b>testing and analysis</b>, automating collection processes and efficiency, 
       and introduced data processing functions to refine and aggregate data, reducing recurrent daily tasks from several hours to <b>less than 35 minutes</b>. 
@@ -165,7 +164,7 @@
         <b>Top 5 </b> QEC, <b>Top 3 </b> QSAC
       </li>
       <li>
-        <b>Finalist<sup></sup
+        <b>Finalist <sup></sup
         ></b> in Hackathon at Queen's University
       </li>
       <li>Marketing Excellence Award</li>
@@ -185,9 +184,9 @@
     </ul>
     <h3 class="font-medium mb-1">Finance:</h3> 
     <ul>
-    <li>
+    <!-- <li>
       <b>CFA</b> Candidate 2025
-    </li>
+    </li> -->
     <!-- <li><b>FRM</b> Candidate 2025</li> -->
   </ul>
   </div>
