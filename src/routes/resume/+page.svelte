@@ -180,13 +180,13 @@
         Stanford Machine Learning Specialization
       </li>
     </ul>
-    <h3 class="font-medium mb-1">Finance:</h3> 
-    <ul>
+    <!-- <h3 class="font-medium mb-1">Finance:</h3> 
+    <ul> -->
     <!-- <li>
       <b>CFA</b> Candidate 2025
     </li> -->
     <!-- <li><b>FRM</b> Candidate 2025</li> -->
-  </ul>
+  <!-- </ul> -->
   </div>
 
 </section>
