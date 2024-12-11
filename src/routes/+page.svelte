@@ -51,7 +51,7 @@
   class="layout-md text-black text-xl leading-tight font-light mb-10"
   id="dylan-text"
 >
-  <span class="g"></span>Software engineer<span class="g">,</span><span class="g">interested in</span><br />
+  <span class="g"></span>Software engineer<span class="g">,</span><span class="g"> interested in</span><br />
    building applications, <span class="g">and</span> fintech .<span class="g"></span>
 </p>
 
