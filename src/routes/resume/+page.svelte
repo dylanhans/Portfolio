@@ -177,6 +177,9 @@
     <h3 class="font-medium mb-1">Software:</h3>
     <ul>
       <li>
+        AWS Certified AI Practitioner
+      </li>
+      <li>
         Stanford Machine Learning Specialization
       </li>
     </ul>

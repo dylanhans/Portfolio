@@ -64,7 +64,7 @@
     <p>
       My passion lies within <em>software</em> and <em>innovation</em>.  
       Seeking opportunities to advance technologies that benefit businesses and society, 
-      I aim to collaborate with individuals and organizations that share my interest for innovation and are committed to making a positive impact in the world. 
+      I aim to collaborate with individuals and organizations that share my interest for innovation, AI/ML, and are committed to making a positive impact in the world. 
     </p>
 
     <p>
