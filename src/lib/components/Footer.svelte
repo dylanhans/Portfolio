@@ -18,7 +18,7 @@
     <div class="row">
       <span>Email</span>
       <hr />
-      <a class="link" href="mailto:dylan-hans@outlook.com">dylanhans19@outlook.com</a>
+      <a class="link" href="mailto:dylanhans19@outlook.com">dylanhans19@outlook.com</a>
     </div>
   </div>
 </footer>

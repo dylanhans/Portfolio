@@ -1,7 +1,7 @@
 <script lang="ts">
-
   import Markdown from "$lib/components/Markdown.svelte";
   import { formatTime } from "$lib/utils";
+  import { onMount } from "svelte";
 
   type Project = {
     title: string;
@@ -17,6 +17,34 @@
 
   export let data: Project;
   export let images: Record<string, { default: string }>;
+
+  // Check if there are additional images
+  let imageList = data.subimages && data.subimages.length > 0 
+    ? [data.image, ...data.subimages] 
+    : [data.image]; // Keep it static if no subimages
+
+  let currentImageIndex = 0;
+  let currentImage = images[`../../projects/${imageList[currentImageIndex]}`]?.default;
+  let transitioning = false; // Track transition state
+  let hasMultipleImages = imageList.length > 1; // Check if slideshow is needed
+
+  function nextImage() {
+    if (!hasMultipleImages) return; // Only slide if there are multiple images
+    transitioning = true; // Start fade-out
+    setTimeout(() => {
+      currentImageIndex = (currentImageIndex + 1) % imageList.length;
+      currentImage = images[`../../projects/${imageList[currentImageIndex]}`]?.default;
+      transitioning = false; // Reset transition after image switch
+    }, 750); // Duration of fade-out before switching
+  }
+
+  // Auto-slide only if there are multiple images
+  onMount(() => {
+    if (hasMultipleImages) {
+      const interval = setInterval(nextImage, 12500);
+      return () => clearInterval(interval); // Cleanup on unmount
+    }
+  });
 </script>
 
 <!-- Title -->
@@ -41,36 +69,40 @@
       <p class="text-lg font-light mb-3">{data.lead}</p>
       <Markdown source={data.content} />
     </div>
-    <div class="col-span-3 md:col-span-1">
-      <a rel="external" href={images[`../../projects/${data.image}`]?.default}>
+    <div class="col-span-3 md:col-span-1 relative overflow-hidden">
+      <a rel="external" href={currentImage} class="relative block w-full h-full">
         <img
-          src={images[`../../projects/${data.image}`]?.default}
-          alt=""
+          src={currentImage}
+          alt="Project Image"
           class:border={data.image_border}
+          class="transition-opacity transform duration-500 ease-in-out absolute w-full"
+          class:fade-out={transitioning}
+          class:slide-left={transitioning}
         />
       </a>
     </div>
   </div>
-
-  {#if data.subimages}
-    <div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12">
-      {#each data.subimages as image}
-        <div class="col-span-full md:col-span-1">
-          <a rel="external" href={images[`../../projects/${image}`]?.default}>
-            <img
-              src={images[`../../projects/${image}`]?.default}
-              alt="{data.title} subimage"
-            />
-          </a>
-        </div>
-      {/each}
-    </div>
-  {/if}
 </div>
 
 <style lang="postcss">
   .pill {
     @apply flex items-center text-sm font-medium;
     @apply px-1.5 py-[1px] mr-1.5 mb-2 bg-neutral-100 rounded-full;
+  }
+
+  /* Fade effect */
+  .fade-out {
+    opacity: 0;
+  }
+
+  /* Slide effect */
+  .slide-left {
+    transform: translateX(-100%);
+  }
+
+  img {
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    opacity: 1;
+    transform: translateX(0);
   }
 </style>

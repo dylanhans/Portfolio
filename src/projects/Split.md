@@ -1,9 +1,10 @@
 ---
 title: Split Financial
 date: 2024-07-02
-topics: ["React", "AWS", "TS", "NextJS", "Swift", "Python", "Full Stack", "..."]
+topics: ["ReactJS", "AWS/GCP", "TS", "Plaid", "PGSQL", "Python", "Full Stack", "..."]
 lead: venture to finance payments for in-store purchases
-image: split_v3.png
+image: split_v3.png 
+subimages: ["s4.png", "s2.png", "s3.png", "s5.png", "s1.png",]
 ---
 
 developing a cutting-edge banking platform that empowers users to finance in-store purchases by seamlessly integrating with their preferred digital wallets. Split Financial offers flexible, interest-free options for qualified users, along with the choice for long-term financing.

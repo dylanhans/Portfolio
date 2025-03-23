@@ -22,7 +22,7 @@
     {
       name: "Autonomous Arm System for Human-Robot Interaction",
       desc: "human-robot interaction with enhanced control and vision",
-      aside: "0.8s contraction, 3kg payload, top 5",
+      aside: "0.8s contraction, 3kg payload",
     },
     {
       name: "Pricing Models",
@@ -52,7 +52,7 @@
   id="dylan-text"
 >
   <span class="g"></span>Software engineer<span class="g">, </span><span class="g"> interested in</span><br />
-   building applications, <span class="g">and</span> fintech .<span class="g"></span>
+   building applications, <span class="g">and</span> technology .<span class="g"></span>
 </p>
 
 <div class="layout-md text-lg space-y-14">
@@ -67,9 +67,9 @@
       I aim to collaborate with individuals and organizations that share my interest for innovation, AI/ML, and are committed to making a positive impact in the world. 
     </p>
 
-    <p>
-      Towards that goal, I am commited to financial technology and investment management development, which form the building blocks for modern technology and applications.
-    </p>
+    <!-- <p>
+      Towards that goal, I am committed to financial technology and investment management development, which form the building blocks for modern technology and applications.
+    </p> -->
   </div>
 
   <div class="leading-snug space-y-4">
@@ -90,17 +90,14 @@
       </a>
     {/each}
   </div>
-
   <div class="space-y-5">
-    <p style="font-size: smaller; "><b style="font-weight: 450;">Programming Stack:</b> Python, C/C++, Java, JavaScript, TypeScript, HTML/CSS, SQL</p>   
-    <p style="font-size: smaller; margin: 0;"><b style="font-weight: 450;">Tech:</b> ReactJS, NodeJS, Express, Rest, AWS, GCP, Docker, Kubernetes, Pandas, PyTorch, TensorFlow</p>
-    <p style="font-size: smaller; margin: 0;"><b style="font-weight: 450;">Tools & Practices:</b> Git, Jira, Agile, TDD, CI/CD</p>
-    <p style="font-size: smaller; margin: 0;"><b style="font-weight: 450;">Other Interests:</b> building personal projects, investments, reading and fitness.</p>
-    <p style="font-size: smaller; margin: 0;">
-      <b style="font-weight: 450;">
-          <a href="https://github.com/dylanhans/portfolio_main" style="text-decoration: underline;">Website Code</a>
-      </b>
-  </p>
+    <p style="font-size: smaller; "><b style="font-weight: 500;">Programming Stack:</b> Python, C/C++, Java, JS, TS, HTML/CSS, SQL, Matlab, R</p>   
+    <p style="font-size: smaller; margin: 0;"><b style="font-weight: 500;">Frameworks:</b> ReactJS, NodeJS, REST, GraphQL, AWS, Docker, Kubernetes,</p>
+    <p style="font-size: smaller; margin: 0;"><b style="font-weight: 500;"></b> Pandas, PyTorch, TensorFlow, Kafka, Redis, MongoDB</p>
+    <p style="font-size: smaller; margin: 0;"><b style="font-weight: 500;">Tools & Practices:</b> Git, Jira, Agile, Scrum, TDD, CI/CD</p>
+    <p style="font-size: smaller; margin: 0;"><b style="font-weight: 500;">Certifications:</b> AWS Certified AI Practitioner, Stanford University ML Specialization (A.Ng)</p>
+    <p style="font-size: smaller; margin: 0;"><b style="font-weight: 500;">Other Interests:</b> Building personal projects, Investments, Reading, and Fitness.</p>
+    
   </div>
 
 </div>

@@ -52,6 +52,7 @@
     <li>Machine Learning & Deep Learning (<a class="link" href="https://smithengineering.queensu.ca/ece/undergraduate/courses/elec-425">ELEC 425</a>)</li>
     <li>A.I. & Interactive Systems (<a class="link" href="https://smithengineering.queensu.ca/ece/undergraduate/courses/elec-472">ELEC 472</a>)</li>
     <li>Data Structures and Algorithms (<a class="link" href="https://smithengineering.queensu.ca/ece/undergraduate/courses/elec-379">ELEC 379</a>)</li>
+    <li>Networks (<a class="link" href="https://smithengineering.queensu.ca/ece/undergraduate/courses/elec-373">ELEC 373</a>)</li>
     <li>Apple Discrete Math (<a class="link" href="https://smithengineering.queensu.ca/ece/undergraduate/courses/elec-270">ELEC 270</a>)</li>
     <li>Algorithms (<a class="link" href="https://ciscwww.cs.queensu.ca/courses/cisc365/">CMPE 365</a>)</li>
     <li>Probability & Random Processes(<a class="link" href="https://smithengineering.queensu.ca/ece/undergraduate/courses/elec-326">ELEC 326</a>)</li>
@@ -83,10 +84,10 @@
     location="Kingston, ON"
   >
     <li>
-      Assessed midterms and labs for ELEC377: Operating Systems in Linux and C, alongside APSC141/143: Programming I/II, in Python.
+      Assessed midterms and labs for ELEC377: Operating Systems in Linux and C, and APSC141/143: Programming I/II in Python.
     </li>
     <li>
-      Facilitated weekly labs and problem-solving sessions in mastering algorithms, kernel, and OS principles for real-time and distributed systems. 
+      Facilitated weekly labs and problem-solving sessions in mastering data structures & algorithms, kernel operations, memory management, multithreading, concurrency, and distributed systems. Covered real-time systems, process scheduling, synchronization, OS design, and performance.
     </li>
   </Workplace>
 
