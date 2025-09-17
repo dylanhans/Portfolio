@@ -269,5 +269,6 @@
   .static-image {
     /* Static image specific styles if needed */
     opacity: 1;
+    border-radius: 8px;
   }
 </style>
