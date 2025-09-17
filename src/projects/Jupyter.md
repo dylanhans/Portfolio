@@ -1,12 +1,14 @@
 ---
-title: Quantitative Studies
-date: 2024-04-02
-topics: ["Python", 'R', "Jupyter NoteBooks / Google CoLab", "QuantConnect"]
-lead: repository featuring guides of algorithmic programs
+title: AI, ML Studies, SD, and SE.
+date: 2025-05-02
+topics: ["Python", "Pandas", "Langchain", "HF", "Numpy", "TensorFlow", "..."]
+lead: repository featuring labs of algorithmic programs
 image: jn.png
 ---
 
-collection of Jupyter Notebook and Google Colab projects with walkthroughs. These focus on machine learning and statistical approaches, ranging from trading strategies to financial modelling.
+collection of Jupyter Notebook, markdown files, oneNote schematics, projects,
+labs, etc. with walkthroughs. These focus on machine learning and AI first
+approaches, ranging from LLM strategies to implementation.
 
-**Links: [CoLab](https://github.com/dylanhans/notebook_projects), 
+**Links: [Github (Private)](https://github.com/dylanhans/software_eng),
 [Collection]()**

@@ -27,5 +27,5 @@ handle banking institution loads and scalability. At this time in the building
 stage, users can sign-in through their existing banking institutions using Plaid
 for secure transactions and financial privacy.
 
-**In Development | Links: [GitHub](https://github.com/dylanhans/SplitFinancial),
+**Halted | Links: [GitHub](https://github.com/dylanhans/SplitFinancial),
 [Website](https://splitfinancial.ca/), [App]()**

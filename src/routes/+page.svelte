@@ -61,7 +61,7 @@
   />
 </p>
 
-<div class="layout-md text-lg space-y-14">
+<div class="layout-md text-lg space-y-10">
   <div class="space-y-5">
     <p>
       I've worked at Queen's University assisting in teaching and researching
@@ -83,7 +83,7 @@
   </div>
 
   <div class="leading-snug space-y-4">
-    <p class="pb-2">Ongoing & notable project experience:</p>
+    <p class="pb-2">Notable project experience:</p>
 
     {#each featuredProjects as project}
       <a class="project-pair" href={project.href}>
@@ -124,6 +124,21 @@
       <b style="font-weight: 500;">Certifications:</b> AWS AI Practitioner, IBM AI
       Engineering, Stanford University ML Specialization
     </p>
+  </div>
+  <div class="icon-container space-y-4">
+    <img
+      src="/svelte.jpeg"
+      class="icon"
+      alt="Website Code"
+      style="filter: grayscale(100%); width: 7%; height: auto;"
+    />
+    <a class="link" href="https://github.com/dylanhans/Portfolio">
+      <p
+        style="font-size: 0.5rem; text-align: start; margin-top: 0px; color: #555;"
+      >
+        Website Code
+      </p>
+    </a>
   </div>
 </div>
 

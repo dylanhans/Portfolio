@@ -13,24 +13,31 @@
     image: string;
     image_border?: boolean;
     subimages?: string[];
-    video?: string; // Add video support
-    size?: string; // Add size property
+    video?: string;
+    size?: string;
+    static_image?: boolean; // New property to enable static image below video
   };
 
   export let data: Project;
   export let images: Record<string, { default: string }>;
   export let videos: Record<string, { default: string }>;
 
-  // Check if there are additional images or video
+  // Check if we should show static image below video
+  const showStaticImageBelowVideo =
+    data.video && data.image && data.static_image;
+
+  // Build media list (excluding main image if it should be static below video)
   let mediaList = [];
   if (data.video) {
-    // If there's a video, put it first in the media list
+    // Always include video first
     mediaList = [{ type: "video", src: data.video }];
-    // Add main image
-    if (data.image) {
+
+    // Only add main image to carousel if not showing it statically below
+    if (data.image && !showStaticImageBelowVideo) {
       mediaList.push({ type: "image", src: data.image });
     }
-    // Add subimages
+
+    // Add subimages to carousel
     if (data.subimages && data.subimages.length > 0) {
       mediaList.push(
         ...data.subimages.map((img) => ({ type: "image", src: img }))
@@ -123,8 +130,9 @@
       <Markdown source={data.content} />
     </div>
     <div
-      class="col-span-3 md:col-span-1 relative overflow-visible flex justify-center items-start"
+      class="col-span-3 md:col-span-1 relative overflow-visible flex flex-col justify-center items-start space-y-4"
     >
+      <!-- Main carousel media -->
       {#if currentMedia.type === "video"}
         <video
           bind:this={videoElement}
@@ -151,6 +159,20 @@
             class:image-large={data.size === "large"}
             class:image-normal={data.size !== "large"}
             class:fade-out={transitioning}
+          />
+        </div>
+      {/if}
+
+      <!-- Static image below video (only for projects with static_image: true) -->
+      {#if showStaticImageBelowVideo}
+        <div class="relative flex justify-center items-start w-full">
+          <img
+            src={getImageSrc(data.image)}
+            alt="Project Static Image"
+            class:border={data.image_border}
+            class="static-image"
+            class:image-large={data.size === "large"}
+            class:image-normal={data.size !== "large"}
           />
         </div>
       {/if}
@@ -202,5 +224,10 @@
   .video-large.fade-out,
   .video-normal.fade-out {
     opacity: 0;
+  }
+
+  .static-image {
+    /* Static image specific styles if needed */
+    opacity: 1;
   }
 </style>

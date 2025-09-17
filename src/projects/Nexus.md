@@ -6,6 +6,8 @@ topics:
   ["React", "AWS", "Node.js", "GPT", "PGSQL", "Python", "Full Stack", "..."]
 lead: virtual system-level AI agent
 video: nexus2.mp4
+image: MOCK.png
+static_image: true
 ---
 
 architecting a secure, VM-based AI agent platform that enables autonomous
