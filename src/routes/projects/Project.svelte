@@ -186,6 +186,8 @@
     position: relative;
     display: block;
     margin: 0 auto;
+    border-radius: 12px;
+    overflow: hidden;
   }
 
   .video-large.fade-out {
