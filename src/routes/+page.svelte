@@ -159,10 +159,17 @@
     @apply mt-0.5 text-base text-neutral-500;
   }
 
-  /* Correction for vertical navigation links on mobile. */
+  /* Mobile text spacing fixes */
+  @media (max-width: 640px) {
+    #dylan-text {
+      @apply pt-8 mt-0;
+    }
+  }
+
+  /* Correction for very small screens */
   @media (max-width: 420px) {
     #dylan-text {
-      @apply -mt-10;
+      @apply pt-8 mt-0;
     }
   }
 </style>

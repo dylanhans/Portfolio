@@ -138,7 +138,7 @@
           bind:this={videoElement}
           src={getVideoSrc(currentMedia.src)}
           alt="Project Video"
-          class="transition-opacity duration-500 ease-in-out"
+          class="transition-opacity duration-500 ease-in-out video-container"
           class:video-large={data.size === "large"}
           class:video-normal={data.size !== "large"}
           class:fade-out={transitioning}
@@ -146,8 +146,16 @@
           loop
           autoplay
           playsinline
-          preload="auto"
+          preload="metadata"
+          webkit-playsinline="true"
           on:loadeddata={handleVideoLoad}
+          on:canplay={() => {
+            if (videoElement && currentMedia.type === "video") {
+              videoElement.play().catch(() => {
+                // Mobile autoplay failed, but video will still be visible
+              });
+            }
+          }}
         />
       {:else}
         <div class="relative flex justify-center items-start w-full h-full">
@@ -202,6 +210,7 @@
     height: auto;
     border-radius: 12px;
     overflow: hidden;
+    max-width: none;
   }
 
   .video-normal {
@@ -209,6 +218,37 @@
     height: auto;
     border-radius: 12px;
     overflow: hidden;
+    max-width: 100%;
+  }
+
+  .video-container {
+    display: block;
+    object-fit: cover;
+    background-color: #000;
+    position: relative;
+  }
+
+  /* Ensure video is visible even if not playing */
+  .video-container::-webkit-media-controls {
+    display: none !important;
+  }
+
+  /* Mobile video fixes */
+  @media (max-width: 768px) {
+    .video-large,
+    .video-normal {
+      width: 100% !important;
+      max-width: 100% !important;
+      height: auto;
+      border-radius: 8px;
+      min-height: 200px; /* Ensure video area is visible */
+    }
+
+    .video-container {
+      width: 100%;
+      max-width: 100%;
+      background-color: #f0f0f0; /* Light background so you can see the video area */
+    }
   }
 
   .image-large {
