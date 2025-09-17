@@ -2,7 +2,7 @@
   import { page } from "$app/stores";
 
   import { onMount } from "svelte";
-  import { FileBarChartIcon, Code2Icon} from "lucide-svelte";
+  import { FileBarChartIcon, Code2Icon } from "lucide-svelte";
 
   import Seo from "$lib/components/Seo.svelte";
   import Project from "./Project.svelte";
@@ -11,6 +11,10 @@
     eager: true,
   }) as any;
   const images = import.meta.glob("../../projects/*.{png,jpg,svg}", {
+    eager: true,
+  }) as any;
+  // Add support for video files
+  const videos = import.meta.glob("../../projects/*.{mp4,webm,mov}", {
     eager: true,
   }) as any;
 
@@ -28,7 +32,6 @@
   });
 
   onMount(() => {
-    // Hack: Fix the scroll position after the page loads, especially for mobile browsers.
     const selected = $page.url.hash.slice(1);
     if (selected) {
       setTimeout(() => {
@@ -57,26 +60,24 @@
     return starsB - starsA;
   });
 
-  let sortOrder: "date" | "stars" = "date";
+  let sortOrder: "date" | "stars" | "se" = "date";
 </script>
 
-<Seo
-  title="Dylan Hans"
-  description=""
-/>
+<Seo title="Dylan Hans" description="" />
 
 <section class="layout-md py-12">
   <h2 class="heading2">Academic and Personal</h2>
 
   <p class="text-lg mb-4">
-    This is my avenue for creative exploration, embracing talent and passion to transform inspiration into valuable projects,
-    study new topics, and develop solutions that foster growth and innovation.
+    This is my avenue for creative exploration, embracing talent and passion to
+    transform inspiration into valuable projects, study new topics, and develop
+    solutions that foster growth and innovation.
   </p>
 
   <p class="text-lg mb-4">
-    I focus my efforts on financial applications and concepts, integrating programming, distributed systems, machine learning, and algorithms.
+    I focus my efforts on financial applications and concepts, integrating
+    programming, distributed systems, machine learning, and algorithms.
   </p>
-
 </section>
 
 <div class="bg-gray-900 text-neutral-200 dark">
@@ -97,14 +98,14 @@
     <button
       class:active={sortOrder === "date"}
       on:click={() => (sortOrder = "date")}
-  >
-    All
-  </button>
+    >
+      All
+    </button>
     <button
       class:active={sortOrder === "stars"}
       on:click={() => (sortOrder = "stars")}
     >
-      <FileBarChartIcon size={18} strokeWidth={1.8} class="mr-1.5" /> Quantitative Finance
+      <FileBarChartIcon size={18} strokeWidth={1.8} class="mr-1.5" /> AI-Enabled
     </button>
     <button
       class:active={sortOrder === "se"}
@@ -118,7 +119,7 @@
 {#each sortOrder === "date" ? projectsByDate : projectsByStars as id (id)}
   <section class="py-10" id={trimName(id)}>
     <div class="mx-auto max-w-[1152px] px-4 sm:px-6">
-      <Project data={projects[id]} {images} {stars} />
+      <Project data={projects[id]} {images} {videos} {stars} />
     </div>
   </section>
 {/each}

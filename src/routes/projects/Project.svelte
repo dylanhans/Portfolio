@@ -13,38 +13,90 @@
     image: string;
     image_border?: boolean;
     subimages?: string[];
+    video?: string; // Add video support
   };
 
   export let data: Project;
   export let images: Record<string, { default: string }>;
+  export let videos: Record<string, { default: string }>;
 
-  // Check if there are additional images
-  let imageList = data.subimages && data.subimages.length > 0 
-    ? [data.image, ...data.subimages] 
-    : [data.image]; // Keep it static if no subimages
-
-  let currentImageIndex = 0;
-  let currentImage = images[`../../projects/${imageList[currentImageIndex]}`]?.default;
-  let transitioning = false; // Track transition state
-  let hasMultipleImages = imageList.length > 1; // Check if slideshow is needed
-
-  function nextImage() {
-    if (!hasMultipleImages) return; // Only slide if there are multiple images
-    transitioning = true; // Start fade-out
-    setTimeout(() => {
-      currentImageIndex = (currentImageIndex + 1) % imageList.length;
-      currentImage = images[`../../projects/${imageList[currentImageIndex]}`]?.default;
-      transitioning = false; // Reset transition after image switch
-    }, 750); // Duration of fade-out before switching
+  // Check if there are additional images or video
+  let mediaList = [];
+  if (data.video) {
+    // If there's a video, put it first in the media list
+    mediaList = [{ type: "video", src: data.video }];
+    // Add main image
+    if (data.image) {
+      mediaList.push({ type: "image", src: data.image });
+    }
+    // Add subimages
+    if (data.subimages && data.subimages.length > 0) {
+      mediaList.push(
+        ...data.subimages.map((img) => ({ type: "image", src: img }))
+      );
+    }
+  } else {
+    // No video, use existing image logic
+    let imageList =
+      data.subimages && data.subimages.length > 0
+        ? [data.image, ...data.subimages]
+        : [data.image];
+    mediaList = imageList.map((img) => ({ type: "image", src: img }));
   }
 
-  // Auto-slide only if there are multiple images
+  let currentMediaIndex = 0;
+  let currentMedia = mediaList[currentMediaIndex];
+  let transitioning = false;
+  let hasMultipleMedia = mediaList.length > 1;
+  let videoElement: HTMLVideoElement;
+
+  function nextMedia() {
+    if (!hasMultipleMedia) return;
+    transitioning = true;
+    setTimeout(() => {
+      currentMediaIndex = (currentMediaIndex + 1) % mediaList.length;
+      currentMedia = mediaList[currentMediaIndex];
+      transitioning = false;
+
+      // Auto-play video when it becomes current
+      setTimeout(() => {
+        if (currentMedia.type === "video" && videoElement) {
+          videoElement.play().catch(() => {
+            // Handle autoplay failure silently
+          });
+        }
+      }, 100);
+    }, 750);
+  }
+
+  // Auto-slide only if there are multiple media items
   onMount(() => {
-    if (hasMultipleImages) {
-      const interval = setInterval(nextImage, 12500);
-      return () => clearInterval(interval); // Cleanup on unmount
+    if (hasMultipleMedia) {
+      const interval = setInterval(nextMedia, 12500);
+      return () => clearInterval(interval);
     }
   });
+
+  // Helper function to get image source
+  function getImageSrc(imagePath: string) {
+    return images[`../../projects/${imagePath}`]?.default;
+  }
+
+  // Helper function to get video source
+  function getVideoSrc(videoPath: string) {
+    return (
+      videos[`../../projects/${videoPath}`]?.default || `/projects/${videoPath}`
+    );
+  }
+
+  // Handle video load
+  function handleVideoLoad() {
+    if (videoElement && currentMedia.type === "video") {
+      videoElement.play().catch(() => {
+        // Handle autoplay failure silently
+      });
+    }
+  }
 </script>
 
 <!-- Title -->
@@ -62,24 +114,45 @@
   {/each}
 </div>
 
-<!-- Description and image -->
+<!-- Description and media -->
 <div class="space-y-4">
   <div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12">
     <div class="col-span-3 md:col-span-2">
       <p class="text-lg font-light mb-3">{data.lead}</p>
       <Markdown source={data.content} />
     </div>
-    <div class="col-span-3 md:col-span-1 relative overflow-hidden">
-      <a rel="external" href={currentImage} class="relative block w-full h-full">
-        <img
-          src={currentImage}
-          alt="Project Image"
-          class:border={data.image_border}
-          class="transition-opacity transform duration-500 ease-in-out absolute w-full"
+    <div class="col-span-3 md:col-span-1 relative overflow-visible">
+      {#if currentMedia.type === "video"}
+        <video
+          bind:this={videoElement}
+          src={getVideoSrc(currentMedia.src)}
+          alt="Project Video"
+          class="video-large transition-opacity transform duration-500 ease-in-out"
           class:fade-out={transitioning}
           class:slide-left={transitioning}
+          muted
+          loop
+          autoplay
+          playsinline
+          preload="auto"
+          on:loadeddata={handleVideoLoad}
         />
-      </a>
+      {:else}
+        <a
+          rel="external"
+          href={getImageSrc(currentMedia.src)}
+          class="relative block w-full h-full"
+        >
+          <img
+            src={getImageSrc(currentMedia.src)}
+            alt="Project Image"
+            class:border={data.image_border}
+            class="transition-opacity transform duration-500 ease-in-out absolute w-full"
+            class:fade-out={transitioning}
+            class:slide-left={transitioning}
+          />
+        </a>
+      {/if}
     </div>
   </div>
 </div>
@@ -100,9 +173,26 @@
     transform: translateX(-100%);
   }
 
-  img {
+  img,
+  video {
     transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
     opacity: 1;
     transform: translateX(0);
+  }
+
+  .video-large {
+    width: 150%;
+    height: auto;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .video-large.fade-out {
+    opacity: 0;
+  }
+
+  .video-large.slide-left {
+    transform: translateX(-100%);
   }
 </style>

@@ -5,9 +5,14 @@
 
   const featuredProjects = [
     {
+      name: "NexusOS",
+      desc: "virtual system-level AI agent",
+      aside: "currently in development",
+    },
+    {
       name: "Split Financial",
       desc: "venture to finance payments for in-store purchases",
-      aside: "currently in development",
+      aside: "platform initiated, further changes incoming",
     },
     {
       name: "IBM Compiler & Framework Integration",
@@ -42,29 +47,34 @@
   ];
 </script>
 
-<Seo
-  title="Dylan Hans"
-  description=""
-/>
+<Seo title="Dylan Hans" description="" />
 
 <p
   class="layout-md text-black text-xl leading-tight font-light mb-10"
   id="dylan-text"
 >
-  <span class="g"></span>Software engineer<span class="g">, </span><span class="g"> interested in</span><br />
-   building applications, <span class="g">and</span> technology .<span class="g"></span>
+  <span class="g" />Software engineer<span class="g">, </span><span class="g">
+    interested in</span
+  ><br />
+  building applications, <span class="g">and</span> technology .<span
+    class="g"
+  />
 </p>
 
 <div class="layout-md text-lg space-y-14">
   <div class="space-y-5">
     <p>
-      I've worked at Queen's University assisting in teaching and researching throughout my Computer Engineering degree, specializing in software engineering. 
+      I've worked at Queen's University assisting in teaching and researching
+      throughout my Computer Engineering degree, specializing in software
+      engineering & AI.
     </p>
 
     <p>
-      My passion lies within <em>software</em> and <em>innovation</em>.  
-      Seeking opportunities to advance technologies that benefit businesses and society, 
-      I aim to collaborate with individuals and organizations that share my interest for innovation, AI/ML, and are committed to making a positive impact in the world. 
+      My passion lies within <em>software</em> and <em>innovation</em>. Seeking
+      opportunities to advance technologies that benefit businesses and society,
+      I aim to collaborate with individuals and organizations that share my
+      interest for innovation, AI/ML, and are committed to making a positive
+      impact in the world.
     </p>
 
     <!-- <p>
@@ -73,7 +83,7 @@
   </div>
 
   <div class="leading-snug space-y-4">
-    <p class="pb-2">Notable project experience:</p>
+    <p class="pb-2">Ongoing & notable project experience:</p>
 
     {#each featuredProjects as project}
       <a class="project-pair" href={project.href}>
@@ -91,19 +101,33 @@
     {/each}
   </div>
   <div class="space-y-5">
-    <p style="font-size: smaller; "><b style="font-weight: 500;">Programming Stack:</b> Python, C/C++, Java, JS, TS, HTML/CSS, SQL, Matlab, R</p>   
-    <p style="font-size: smaller; margin: 0;"><b style="font-weight: 500;">Frameworks:</b> ReactJS, NodeJS, REST, GraphQL, AWS, Docker, Kubernetes,</p>
-    <p style="font-size: smaller; margin: 0;"><b style="font-weight: 500;"></b> Pandas, PyTorch, TensorFlow, Kafka, Redis, MongoDB</p>
-    <p style="font-size: smaller; margin: 0;"><b style="font-weight: 500;">Tools & Practices:</b> Git, Jira, Agile, Scrum, TDD, CI/CD</p>
-    <p style="font-size: smaller; margin: 0;"><b style="font-weight: 500;">Certifications:</b> AWS Certified AI Practitioner, Stanford University ML Specialization (A.Ng)</p>
-    <p style="font-size: smaller; margin: 0;"><b style="font-weight: 500;">Other Interests:</b> Building personal projects, Investments, Reading, and Fitness.</p>
-    
+    <p style="font-size: smaller; ">
+      <b style="font-weight: 500;">Languages:</b> Python, C/C++, Java, JavaScript,
+      TypeScript, HTML/CSS, SQL
+    </p>
+    <p style="font-size: smaller; margin: 0;">
+      <b style="font-weight: 500;">Infrastructure & Databases:</b> Docker, Kubernetes,
+      AWS, Azure, GCP, PostgreSQL, MongoDB, Redis, Kafka
+    </p>
+    <p style="font-size: smaller; margin: 0;">
+      <b style="font-weight: 500;">Frameworks & Libraries:</b> ReactJS, Node.js,
+      Express.js, Flask, Pandas, TensorFlow, LangChain, HF
+    </p>
+    <p style="font-size: smaller; margin: 0;">
+      <b style="font-weight: 500;">Tools & Practices:</b> Git, Jira, Agile, Scrum,
+      TDD, CI/CD
+    </p>
+    <p style="font-size: smaller; margin: 0;">
+      <b style="font-weight: 500;">Security:</b> OAuth, JWT, Sentry
+    </p>
+    <p style="font-size: smaller; margin: 0;">
+      <b style="font-weight: 500;">Certifications:</b> AWS AI Practitioner, IBM AI
+      Engineering, Stanford University ML Specialization
+    </p>
   </div>
-
 </div>
 
 <style lang="postcss">
-  
   .g {
     @apply text-neutral-400;
   }
@@ -122,7 +146,7 @@
 
   /* Correction for vertical navigation links on mobile. */
   @media (max-width: 420px) {
-    #dylan-text{
+    #dylan-text {
       @apply -mt-10;
     }
   }
