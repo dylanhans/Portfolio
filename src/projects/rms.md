@@ -2,6 +2,7 @@
 title: Artificial Robotic Manipulation System
 date: 2023-04-15
 topics: ["Python", "Microcontollers", "OpenCV", "Solidworks"]
+category: ai
 lead: accelerating human-robot interaction with enhanced control and vision 
 image: rms_75.png
 ---

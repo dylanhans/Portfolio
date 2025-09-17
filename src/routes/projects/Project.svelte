@@ -14,6 +14,7 @@
     image_border?: boolean;
     subimages?: string[];
     video?: string; // Add video support
+    size?: string; // Add size property
   };
 
   export let data: Project;
@@ -121,15 +122,18 @@
       <p class="text-lg font-light mb-3">{data.lead}</p>
       <Markdown source={data.content} />
     </div>
-    <div class="col-span-3 md:col-span-1 relative overflow-visible">
+    <div
+      class="col-span-3 md:col-span-1 relative overflow-visible flex justify-center items-start"
+    >
       {#if currentMedia.type === "video"}
         <video
           bind:this={videoElement}
           src={getVideoSrc(currentMedia.src)}
           alt="Project Video"
-          class="video-large transition-opacity transform duration-500 ease-in-out"
+          class="transition-opacity duration-500 ease-in-out"
+          class:video-large={data.size === "large"}
+          class:video-normal={data.size !== "large"}
           class:fade-out={transitioning}
-          class:slide-left={transitioning}
           muted
           loop
           autoplay
@@ -138,20 +142,17 @@
           on:loadeddata={handleVideoLoad}
         />
       {:else}
-        <a
-          rel="external"
-          href={getImageSrc(currentMedia.src)}
-          class="relative block w-full h-full"
-        >
+        <div class="relative flex justify-center items-start w-full h-full">
           <img
             src={getImageSrc(currentMedia.src)}
             alt="Project Image"
             class:border={data.image_border}
-            class="transition-opacity transform duration-500 ease-in-out absolute w-full"
+            class="transition-opacity duration-500 ease-in-out"
+            class:image-large={data.size === "large"}
+            class:image-normal={data.size !== "large"}
             class:fade-out={transitioning}
-            class:slide-left={transitioning}
           />
-        </a>
+        </div>
       {/if}
     </div>
   </div>
@@ -168,33 +169,38 @@
     opacity: 0;
   }
 
-  /* Slide effect */
-  .slide-left {
-    transform: translateX(-100%);
-  }
-
   img,
   video {
-    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
     opacity: 1;
-    transform: translateX(0);
   }
 
   .video-large {
     width: 150%;
     height: auto;
-    position: relative;
-    display: block;
-    margin: 0 auto;
     border-radius: 12px;
     overflow: hidden;
   }
 
-  .video-large.fade-out {
-    opacity: 0;
+  .video-normal {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    overflow: hidden;
   }
 
-  .video-large.slide-left {
-    transform: translateX(-100%);
+  .image-large {
+    width: 150%;
+    height: auto;
+  }
+
+  .image-normal {
+    width: 100%;
+    height: auto;
+  }
+
+  .video-large.fade-out,
+  .video-normal.fade-out {
+    opacity: 0;
   }
 </style>

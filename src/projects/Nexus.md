@@ -1,6 +1,7 @@
 ---
 title: NexusOS
 date: 2025-09-01
+category: ai
 topics:
   ["React", "AWS", "Node.js", "GPT", "PGSQL", "Python", "Full Stack", "..."]
 lead: virtual system-level AI agent

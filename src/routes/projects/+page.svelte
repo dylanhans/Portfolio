@@ -2,7 +2,7 @@
   import { page } from "$app/stores";
 
   import { onMount } from "svelte";
-  import { FileBarChartIcon, Code2Icon } from "lucide-svelte";
+  import { FileBarChartIcon, BookOpenIcon } from "lucide-svelte";
 
   import Seo from "$lib/components/Seo.svelte";
   import Project from "./Project.svelte";
@@ -22,14 +22,23 @@
     return id.match(/\.\.\/projects\/(.*)\.md$/)?.[1];
   }
 
-  $: projectsByDate = Object.keys(projects).sort(
-    (a, b) => projects[b].date - projects[a].date
-  );
+  $: projectsByDate = Object.keys(projects)
+    .filter((id) => !projects[id].category || projects[id].category === "ai")
+    .sort((a, b) => projects[b].date - projects[a].date);
   $: projectsByTitle = Object.keys(projects).sort((a, b) => {
     const titleA = projects[a].title.toLowerCase();
     const titleB = projects[b].title.toLowerCase();
     return titleA < titleB ? -1 : titleA > titleB ? 1 : 0;
   });
+
+  // Filter projects by category
+  $: projectsByAI = Object.keys(projects)
+    .filter((id) => projects[id].category === "ai")
+    .sort((a, b) => projects[b].date - projects[a].date);
+
+  $: projectsByBlog = Object.keys(projects)
+    .filter((id) => projects[id].category === "blog")
+    .sort((a, b) => projects[b].date - projects[a].date);
 
   onMount(() => {
     const selected = $page.url.hash.slice(1);
@@ -42,25 +51,31 @@
     }
   });
 
-  let stars: Record<string, number> | null = null;
-  onMount(async () => {
-    const resp = await fetch(
-      "https://api.github.com/users/ekzhang/repos?per_page=100"
-    );
-    const repos = await resp.json();
-    stars = {};
-    for (const obj of repos) {
-      stars[obj.full_name] = obj.stargazers_count;
+  let sortOrder: "date" | "ai" | "blog" = "date";
+  let isTransitioning = false;
+
+  // Function to get current projects based on sort order
+  $: currentProjects = (() => {
+    switch (sortOrder) {
+      case "ai":
+        return projectsByAI;
+      case "blog":
+        return projectsByBlog;
+      default:
+        return projectsByDate; // "All" shows all projects sorted by date
     }
-  });
+  })();
 
-  $: projectsByStars = [...projectsByTitle].sort((a, b) => {
-    const starsA = stars?.[projects[a].repo] ?? 0;
-    const starsB = stars?.[projects[b].repo] ?? 0;
-    return starsB - starsA;
-  });
+  // Function to handle category changes with fade transition
+  function changeSortOrder(newOrder: "date" | "ai" | "blog") {
+    if (newOrder === sortOrder) return;
 
-  let sortOrder: "date" | "stars" | "se" = "date";
+    isTransitioning = true;
+    setTimeout(() => {
+      sortOrder = newOrder;
+      isTransitioning = false;
+    }, 300); // Half of transition duration for smooth crossfade
+  }
 </script>
 
 <Seo title="Dylan Hans" description="" />
@@ -97,32 +112,35 @@
   <div class="flex justify-center space-x-6">
     <button
       class:active={sortOrder === "date"}
-      on:click={() => (sortOrder = "date")}
+      on:click={() => changeSortOrder("date")}
     >
       All
     </button>
     <button
-      class:active={sortOrder === "stars"}
-      on:click={() => (sortOrder = "stars")}
+      class:active={sortOrder === "ai"}
+      on:click={() => changeSortOrder("ai")}
     >
-      <FileBarChartIcon size={18} strokeWidth={1.8} class="mr-1.5" /> AI-Enabled
+      <FileBarChartIcon size={18} strokeWidth={1.8} class="mr-1.5" /> AI
     </button>
     <button
-      class:active={sortOrder === "se"}
-      on:click={() => (sortOrder = "se")}
+      class:active={sortOrder === "blog"}
+      on:click={() => changeSortOrder("blog")}
     >
-      <Code2Icon size={18} strokeWidth={1.8} class="mr-1.5" /> Software Engineering
+      <BookOpenIcon size={18} strokeWidth={1.8} class="mr-1.5" /> Updates (Coming
+      Soon)
     </button>
   </div>
 </div>
 
-{#each sortOrder === "date" ? projectsByDate : projectsByStars as id (id)}
-  <section class="py-10" id={trimName(id)}>
-    <div class="mx-auto max-w-[1152px] px-4 sm:px-6">
-      <Project data={projects[id]} {images} {videos} {stars} />
-    </div>
-  </section>
-{/each}
+<div class="projects-container" class:fade-out={isTransitioning}>
+  {#each currentProjects as id (id)}
+    <section class="py-10" id={trimName(id)}>
+      <div class="mx-auto max-w-[1152px] px-4 sm:px-6">
+        <Project data={projects[id]} {images} {videos} />
+      </div>
+    </section>
+  {/each}
+</div>
 
 <style lang="postcss">
   button {
@@ -131,5 +149,14 @@
 
   button.active {
     @apply text-black;
+  }
+
+  .projects-container {
+    transition: opacity 0.6s ease-in-out;
+    opacity: 1;
+  }
+
+  .projects-container.fade-out {
+    opacity: 0;
   }
 </style>
