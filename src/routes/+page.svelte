@@ -53,10 +53,10 @@
   class="layout-md text-black text-xl leading-tight font-light mb-10"
   id="dylan-text"
 >
-  <span class="g" />Software engineer<span class="g">, </span><span class="g">
+  <span class="g" />Engineer<span class="g">, </span><span class="g">
     interested in</span
   ><br />
-  building applications, <span class="g">and</span> technology .<span
+  building applications & strategy, <span class="g">and</span> technology .<span
     class="g"
   />
 </p>
