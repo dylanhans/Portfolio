@@ -56,7 +56,7 @@
   <span class="g" />Engineer<span class="g">, </span><span class="g">
     interested in</span
   ><br />
-  building applications & strategy, <span class="g">and</span> technology .<span
+  building applications, product, <span class="g">and</span> technology .<span
     class="g"
   />
 </p>
