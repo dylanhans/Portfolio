@@ -305,7 +305,6 @@
 
   <Workplace
     title="Software Engineer Intern"
-    company=""
     dates="May 2023 – Aug 2023"
     location="Remote, ON"
   />
