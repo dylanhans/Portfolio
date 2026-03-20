@@ -219,37 +219,6 @@
     </li>
   </ul>
 </section>
-<section class="layout-md py-0">
-  <div class="space-y-5">
-    <p style="font-size: smaller; ">
-      <b style="font-weight: 500;">Languages:</b> Python, C/C++, Java, JavaScript,
-      TypeScript, HTML/CSS, SQL
-    </p>
-    <p style="font-size: smaller; margin: 0;">
-      <b style="font-weight: 500;">Infrastructure & Databases:</b> Docker, Kubernetes,
-      AWS, Azure, GCP, PostgreSQL, MongoDB, Redis, Kafka
-    </p>
-    <p style="font-size: smaller; margin: 0;">
-      <b style="font-weight: 500;">Frameworks & Libraries:</b> ReactJS, Node.js,
-      Express.js, FastAPI, Pandas
-    </p>
-    <p style="font-size: smaller; margin: 0;">
-      <b style="font-weight: 500;">AI/ML:</b> TensorFlow, LangChain, Hugging Face,
-      RAG
-    </p>
-    <p style="font-size: smaller; margin: 0;">
-      <b style="font-weight: 500;">Tools & Practices:</b> Git, Jira, Agile, Scrum,
-      TDD, CI/CD
-    </p>
-    <p style="font-size: smaller; margin: 0;">
-      <b style="font-weight: 500;">Security:</b> OAuth, JWT, Sentry
-    </p>
-    <p style="font-size: smaller; margin: 0;">
-      <b style="font-weight: 500;">Certifications:</b> AWS Certified AI Practitioner,
-      IBM AI Professional Engineering Certificate, Stanford University ML Specialization
-    </p>
-  </div>
-</section>
 
 <section class="layout-md py-0">
   <h2 class="heading2">Professional Experience</h2>
