@@ -219,8 +219,8 @@
     </li>
   </ul>
 </section>
-
-<div class="space-y-5">
+<section class="layout-md py-0">
+  <div class="space-y-5">
     <p style="font-size: smaller; ">
       <b style="font-weight: 500;">Languages:</b> Python, C/C++, Java, JavaScript,
       TypeScript, HTML/CSS, SQL
@@ -234,7 +234,8 @@
       Express.js, FastAPI, Pandas
     </p>
     <p style="font-size: smaller; margin: 0;">
-      <b style="font-weight: 500;">AI/ML:</b> TensorFlow, LangChain, Hugging Face, RAG
+      <b style="font-weight: 500;">AI/ML:</b> TensorFlow, LangChain, Hugging Face,
+      RAG
     </p>
     <p style="font-size: smaller; margin: 0;">
       <b style="font-weight: 500;">Tools & Practices:</b> Git, Jira, Agile, Scrum,
@@ -244,10 +245,11 @@
       <b style="font-weight: 500;">Security:</b> OAuth, JWT, Sentry
     </p>
     <p style="font-size: smaller; margin: 0;">
-      <b style="font-weight: 500;">Certifications:</b> AWS Certified AI Practitioner, IBM AI
-      Professional Engineering Certificate, Stanford University ML Specialization
+      <b style="font-weight: 500;">Certifications:</b> AWS Certified AI Practitioner,
+      IBM AI Professional Engineering Certificate, Stanford University ML Specialization
     </p>
   </div>
+</section>
 
 <section class="layout-md py-0">
   <h2 class="heading2">Professional Experience</h2>
@@ -306,8 +308,7 @@
     company=""
     dates="May 2023 – Aug 2023"
     location="Remote, ON"
-  >
-  </Workplace>
+  />
 
   <Workplace
     title="Operations and Automation Engineer Intern"
