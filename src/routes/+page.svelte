@@ -12,7 +12,7 @@
     {
       name: "Split Financial",
       desc: "venture to finance payments for in-store purchases",
-      aside: "platform initiated, further changes incoming",
+      aside: "platform constructed, further changes incoming",
     },
     {
       name: "IBM Compiler & Framework Integration",
@@ -53,7 +53,7 @@
   class="layout-md text-black text-xl leading-tight font-light mb-10"
   id="dylan-text"
 >
-  <span class="g" />Engineer<span class="g">, </span><span class="g">
+  <span class="g" />Engineer (FDSE/SWE)<span class="g">, </span><span class="g">
     interested in</span
   ><br />
   building applications, product, <span class="g">and</span> technology .<span
@@ -111,7 +111,10 @@
     </p>
     <p style="font-size: smaller; margin: 0;">
       <b style="font-weight: 500;">Frameworks & Libraries:</b> ReactJS, Node.js,
-      Express.js, Flask, Pandas, TensorFlow, LangChain, HF
+      Express.js, FastAPI, Pandas
+    </p>
+    <p style="font-size: smaller; margin: 0;">
+      <b style="font-weight: 500;">AI/ML:</b> TensorFlow, LangChain, Hugging Face, RAG
     </p>
     <p style="font-size: smaller; margin: 0;">
       <b style="font-weight: 500;">Tools & Practices:</b> Git, Jira, Agile, Scrum,
@@ -121,8 +124,8 @@
       <b style="font-weight: 500;">Security:</b> OAuth, JWT, Sentry
     </p>
     <p style="font-size: smaller; margin: 0;">
-      <b style="font-weight: 500;">Certifications:</b> AWS AI Practitioner, IBM AI
-      Engineering, Stanford University ML Specialization
+      <b style="font-weight: 500;">Certifications:</b> AWS Certified AI Practitioner, IBM AI
+      Professional Engineering Certificate, Stanford University ML Specialization
     </p>
   </div>
   <div class="icon-container space-y-4">

@@ -24,28 +24,28 @@
   <h4 class="font-medium mt-4 mb-1">Academic Involvement:</h4>
   <ul>
     <li>
-      <b>RA</b> for Research Project (<a
+      <b>Research Assistant</b> for Research Project (<a
         class="link"
         href="https://smithengineering.queensu.ca/ece/undergraduate/courses/elec-497"
         >APSC 497</a
       >)
     </li>
     <li>
-      <b>TA</b> for Operating Systems (<a
+      <b>Teaching Assistant</b> for Operating Systems (<a
         class="link"
         href="https://smithengineering.queensu.ca/ece/undergraduate/courses/elec-377"
         >ELEC 377</a
       >)
     </li>
     <li>
-      <b>TA</b> for Programming I (<a
+      <b>Teaching Assistant</b> for Programming I (<a
         class="link"
         href="https://smithengineering.queensu.ca/first-year/first-year-courses"
         >APSC 141</a
       >)
     </li>
     <li>
-      <b>TA</b> for Programming II (<a
+      <b>Teaching Assistant</b> for Programming II (<a
         class="link"
         href="https://smithengineering.queensu.ca/first-year/first-year-courses"
         >APSC 143</a
@@ -220,6 +220,35 @@
   </ul>
 </section>
 
+<div class="space-y-5">
+    <p style="font-size: smaller; ">
+      <b style="font-weight: 500;">Languages:</b> Python, C/C++, Java, JavaScript,
+      TypeScript, HTML/CSS, SQL
+    </p>
+    <p style="font-size: smaller; margin: 0;">
+      <b style="font-weight: 500;">Infrastructure & Databases:</b> Docker, Kubernetes,
+      AWS, Azure, GCP, PostgreSQL, MongoDB, Redis, Kafka
+    </p>
+    <p style="font-size: smaller; margin: 0;">
+      <b style="font-weight: 500;">Frameworks & Libraries:</b> ReactJS, Node.js,
+      Express.js, FastAPI, Pandas
+    </p>
+    <p style="font-size: smaller; margin: 0;">
+      <b style="font-weight: 500;">AI/ML:</b> TensorFlow, LangChain, Hugging Face, RAG
+    </p>
+    <p style="font-size: smaller; margin: 0;">
+      <b style="font-weight: 500;">Tools & Practices:</b> Git, Jira, Agile, Scrum,
+      TDD, CI/CD
+    </p>
+    <p style="font-size: smaller; margin: 0;">
+      <b style="font-weight: 500;">Security:</b> OAuth, JWT, Sentry
+    </p>
+    <p style="font-size: smaller; margin: 0;">
+      <b style="font-weight: 500;">Certifications:</b> AWS Certified AI Practitioner, IBM AI
+      Professional Engineering Certificate, Stanford University ML Specialization
+    </p>
+  </div>
+
 <section class="layout-md py-0">
   <h2 class="heading2">Professional Experience</h2>
 
@@ -273,6 +302,14 @@
   </Workplace>
 
   <Workplace
+    title="Software Engineer Intern"
+    company=""
+    dates="May 2023 – Aug 2023"
+    location="Remote, ON"
+  >
+  </Workplace>
+
+  <Workplace
     title="Operations and Automation Engineer Intern"
     company="Peel Region"
     dates="June 2022 – Sept 2022"
@@ -299,8 +336,8 @@
   <Workplace
     title="Solutions Specialist"
     company="Rogers & Bell"
-    dates="June 2020 – August 2020"
-    location="Remote | Caledon, ON"
+    dates="Sep 2022 – Feb 2023"
+    location="Remote | Greater Toronto Area, ON"
   >
     <li>
       Negotiated client contracts and <b> problem-solved complex challenges </b>

@@ -2,8 +2,8 @@
   import { page } from "$app/stores";
 
   const links = [
-    { name: "projects", href: "/projects" },
-    { name: "resume", href: "/resume" },
+    { name: "Projects", href: "/projects" },
+    { name: "Resume", href: "/resume" },
   ];
 
   let pageTitle: string | null = null;

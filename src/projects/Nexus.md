@@ -1,6 +1,6 @@
 ---
 title: NexusOS
-date: 2025-09-01
+date: 2025-11-01
 category: ai
 topics:
   ["React", "AWS", "Node.js", "GPT", "PGSQL", "Python", "Full Stack", "..."]
@@ -34,10 +34,10 @@ these capabilities will evolve into a production-ready infrastructure designed
 for enterprise pilots, with observability, CI/CD, TDD, and
 infrastructure-as-code to ensure resilience and scale.
 
-at this stage for building a thin mvp, projected outcomes include 30–40% faster
-task completion, 2–3x worker productivity uplift, & potential cost of < ~$0.80
-per 12 hours for average worker load with OpenAI's GPT. For higher-level tasks,
-claude, gemini, and other models will be available.
+at this stage for building a thin mvp, designing to reach outcomes of 30–40% faster
+task completion, and potential cost of < ~$0.80 per 12 hours for average worker load with 
+OpenAI's GPT (Industry Benchmark Testing) For higher-level tasks, claude, gemini, and other 
+models will be available.
 
 **In Development | Links: [GitHub](https://github.com/dylanhans),
 [Website](https://nxos.ai/), [App]()**

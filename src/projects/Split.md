@@ -1,6 +1,6 @@
 ---
 title: Split Financial
-date: 2024-07-02
+date: 2024-09-02
 topics:
   ["ReactJS", "AWS/GCP", "TS", "Plaid", "PGSQL", "Python", "Full Stack", "..."]
 category: ai
@@ -27,5 +27,5 @@ handle banking institution loads and scalability. At this time in the building
 stage, users can sign-in through their existing banking institutions using Plaid
 for secure transactions and financial privacy.
 
-**Halted | Links: [GitHub](https://github.com/dylanhans/SplitFinancial),
+**Paused | Links: [GitHub](https://github.com/dylanhans/SplitFinancial),
 [Website](https://splitfinancial.ca/), [App]()**
