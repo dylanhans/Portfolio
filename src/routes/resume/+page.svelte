@@ -303,9 +303,9 @@
   </Workplace>
 
   <Workplace
-    title="Solutions Specialist"
+    title="Digital Solutions Consultant"
     company="Rogers & Bell"
-    dates="Sep 2022 – Feb 2023"
+    dates="Apr 2022 – Aug 2023"
     location="Remote | Greater Toronto Area, ON"
   >
     <li>
