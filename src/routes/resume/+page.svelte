@@ -35,8 +35,9 @@
         class="link"
         href="https://smithengineering.queensu.ca/ece/undergraduate/courses/elec-497"
         >APSC 497</a
-      >)
+      >) [1/6]
     </li>
+    S
     <li>
       <b>Teaching Assistant</b> for Operating Systems (<a
         class="link"
@@ -75,7 +76,7 @@
       <a class="link" href="https://qbmet.ca/">QBMET</a>
     </li>
     <li>
-      <b> FD | Coordinator</b> at
+      <b> Director </b> at
       <a class="link" href="https://www.instagram.com/queens.saa/?hl=en">QSAA</a
       >
     </li>
@@ -129,7 +130,7 @@
       >)
     </li>
     <li>
-      Probability & Random Processes(<a
+      Probability & Random Processes (<a
         class="link"
         href="https://smithengineering.queensu.ca/ece/undergraduate/courses/elec-326"
         >ELEC 326</a
@@ -338,7 +339,8 @@
 
   <Workplace
     title="Digital Solutions Specialist"
-    company="Rogers Communications"S
+    company="Rogers Communications"
+    S
     dates="Apr 2022 – Aug 2022"
     location="Greater Toronto Area, ON"
   >
