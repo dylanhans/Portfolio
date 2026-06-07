@@ -56,5 +56,5 @@ task completion, and potential cost of < ~$0.80 per 12 hours for average
 workload with OpenAI's GPT (Industry Benchmark Testing). For higher-level tasks,
 Claude, Gemini, and other models will be available.
 
-**In Development | Links: [GitHub](https://github.com/dylanhans),
-[Website](https://nxos.ai/), [App]()**
+**In Development | Links: [GitHub](https://github.com/dylanhans), [Website](),
+[App]()**

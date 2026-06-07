@@ -14,7 +14,7 @@
       <div class="text-neutral-500 mb-0.5">2026 — 2028</div>
     </div>
     <p class="byline">
-      <b>Msc in AI — Pending Specialization</b>
+      <b>Ms in AI — Pending Specialization</b>
     </p>
     <div class="flex justify-between items-end">
       <h3 class="text-black text-lg">Queen's University</h3>
