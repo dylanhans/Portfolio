@@ -37,7 +37,7 @@
         >APSC 497</a
       >) [1/6]
     </li>
-    S
+
     <li>
       <b>Teaching Assistant</b> for Operating Systems (<a
         class="link"

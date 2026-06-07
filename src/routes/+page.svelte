@@ -12,7 +12,7 @@
     {
       name: "Split Financial",
       desc: "venture to finance payments for in-store purchases",
-      aside: "platform constructed, further changes incoming",
+      aside: "development paused — pursuing other ventures",
     },
     {
       name: "IBM Compiler & Framework Integration",
