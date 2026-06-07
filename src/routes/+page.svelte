@@ -6,7 +6,7 @@
   const featuredProjects = [
     {
       name: "NexusOS",
-      desc: "virtual system-level AI agent",
+      desc: "agentic AI platform for voice-first cross-app automations",
       aside: "currently in development",
     },
     {
@@ -64,9 +64,9 @@
 <div class="layout-md text-lg space-y-10">
   <div class="space-y-5">
     <p>
-      I've worked at Queen's University assisting in teaching and researching
-      throughout my Computer Engineering degree, specializing in software
-      engineering & AI.
+      I'm an AI Engineer based in Chicago pursuing a Master's in Artificial Intelligence at the University of Colorado Boulder. 
+      I hold a Computer Engineering degree from Queen's University, specializing in Software and AI, with experience across teaching, 
+      research, and building production AI systems.
     </p>
 
     <p>
