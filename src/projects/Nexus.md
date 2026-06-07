@@ -4,7 +4,7 @@ date: 2025-11-01
 category: ai
 topics:
   ["React", "AWS", "Node.js", "GPT", "PGSQL", "Python", "Full Stack", "..."]
-lead: virtual system-level AI agent
+lead: ambient system-level AI agent
 video: nexus2.mp4
 image: MOCK.png
 static_image: true

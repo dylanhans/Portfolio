@@ -10,6 +10,13 @@
 
   <div class="mb-4">
     <div class="flex justify-between items-end">
+      <h3 class="text-black text-lg">University of Colorado Boulder</h3>
+      <div class="text-neutral-500 mb-0.5">2026 — 2028</div>
+    </div>
+    <p class="byline">
+      <b>Msc in AI — Pending Specialization</b>
+    </p>
+    <div class="flex justify-between items-end">
       <h3 class="text-black text-lg">Queen's University</h3>
       <div class="text-neutral-500 mb-0.5">2019 — 2024</div>
     </div>
@@ -224,7 +231,28 @@
   <h2 class="heading2">Professional Experience</h2>
 
   <Workplace
-    title="Teaching Asssistant"
+    title="Founder"
+    company="Nexus"
+    dates="Nov 2025 – Present"
+    location="Chicago, IL"
+  />
+
+  <Workplace
+    title="Lead Software Engineer"
+    company="Stealth AI"
+    dates="Sep 2024 – May 2026"
+    location="San Francisco, CA"
+  />
+
+  <Workplace
+    title="AI Trainer / Tutor"
+    company="xAI"
+    dates="Dec 2024 – Mar 2025"
+    location="Remote"
+  />
+
+  <Workplace
+    title="Teaching Assistant, Software & Systems"
     company="Queen's University"
     dates="Sept 2023 – January 2024"
     location="Kingston, ON"
@@ -242,9 +270,38 @@
   </Workplace>
 
   <Workplace
-    title="Research Assistant"
-    company="Queen's University "
-    dates="Sept 2022 - May 2023"
+    title="Digital Solutions Consultant"
+    company="Bell"
+    dates="May 2023 – Aug 2023"
+    location="Greater Toronto Area, ON"
+  >
+    <li>
+      Negotiated client contracts and <b>problem-solved complex challenges</b>
+      by leveraging technical expertise and client relationships daily.
+    </li>
+    <li>
+      Proficiently utilized <b>Salesforce</b> to track and execute
+      <b>CRM strategies</b>, elevating client engagement, and supervised
+      employee training rotations.
+    </li>
+    <li>
+      Prepared proposals and documentation, collaborating with cross-functional
+      teams to identify <b>client requirements</b> and develop
+      <b>tailored solutions</b>.
+    </li>
+  </Workplace>
+
+  <Workplace
+    title="Software Engineer Intern"
+    company="Stealth"
+    dates="May 2023 – Aug 2023"
+    location="Remote, ON"
+  />
+
+  <Workplace
+    title="Research Assistant, Software"
+    company="Queen's University"
+    dates="Sept 2022 – Feb 2023"
     location="Kingston, ON"
   >
     <li>
@@ -256,32 +313,9 @@
   </Workplace>
 
   <Workplace
-    title="Undergraduate Consultant"
-    company="Queen's University"
-    dates="May 2021 – August 2021"
-    location="Kingston, ON"
-  >
-    <li>
-      Mentored students 1 to 1 on tangible social, academic, and healthy
-      lifestyle skills to achieve <b>success</b> based on academics and personal
-      experience.
-    </li>
-    <li>
-      Created weekly plans in collaboration with students to address academic
-      challenges, elevated grades and enhanced confidence.
-    </li>
-  </Workplace>
-
-  <Workplace
-    title="Software Engineer Intern"
-    dates="May 2023 – Aug 2023"
-    location="Remote, ON"
-  />
-
-  <Workplace
-    title="Operations and Automation Engineer Intern"
-    company="Peel Region"
-    dates="June 2022 – Sept 2022"
+    title="Operations & Automation Engineer Intern"
+    company="Region of Peel"
+    dates="Jun 2022 – Sep 2022"
     location="Caledon, ON"
   >
     <li>
@@ -295,7 +329,7 @@
       testing.
     </li>
     <li>
-      Assisted in improvement of the team’s data application performance through <b
+      Assisted in improvement of the team's data application performance through <b
         >testing and analysis</b
       >, automating collection processes and efficiency, and introduced data
       processing strategies to refine and aggregate data.
@@ -304,12 +338,12 @@
 
   <Workplace
     title="Digital Solutions Consultant"
-    company="Rogers & Bell"
-    dates="Apr 2022 – Aug 2023"
-    location="Remote | Greater Toronto Area, ON"
+    company="Rogers Communications"
+    dates="Apr 2022 – Aug 2022"
+    location="Greater Toronto Area, ON"
   >
     <li>
-      Negotiated client contracts and <b> problem-solved complex challenges </b>
+      Negotiated client contracts and <b>problem-solved complex challenges</b>
       by leveraging technical expertise and client relationships daily.
     </li>
     <li>
@@ -321,6 +355,23 @@
       Prepared proposals and documentation, collaborating with cross-functional
       teams to identify <b>client requirements</b> and develop
       <b>tailored solutions</b>.
+    </li>
+  </Workplace>
+
+  <Workplace
+    title="Undergraduate Success Consultant"
+    company="Queen's University"
+    dates="May 2021 – Sep 2021"
+    location="Kingston, ON"
+  >
+    <li>
+      Mentored students 1 to 1 on tangible social, academic, and healthy
+      lifestyle skills to achieve <b>success</b> based on academics and personal
+      experience.
+    </li>
+    <li>
+      Created weekly plans in collaboration with students to address academic
+      challenges, elevated grades and enhanced confidence.
     </li>
   </Workplace>
 </section>
