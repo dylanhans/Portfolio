@@ -241,7 +241,7 @@
     title="Lead Software Engineer"
     company="Stealth AI"
     dates="Sep 2024 – May 2026"
-    location="San Francisco, CA"
+    location="Toronto, ON"
   />
 
   <Workplace
@@ -337,8 +337,8 @@
   </Workplace>
 
   <Workplace
-    title="Digital Solutions Consultant"
-    company="Rogers Communications"
+    title="Digital Solutions Specialist"
+    company="Rogers Communications"S
     dates="Apr 2022 – Aug 2022"
     location="Greater Toronto Area, ON"
   >
