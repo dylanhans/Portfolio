@@ -5,7 +5,7 @@
 
   const featuredProjects = [
     {
-      name: "NexusOS",
+      name: "nexus",
       desc: "agentic voice-first AI platform for cross-app automations",
       aside: "currently in development",
     },
