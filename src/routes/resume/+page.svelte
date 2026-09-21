@@ -11,10 +11,10 @@
   <div class="mb-4">
     <div class="flex justify-between items-end">
       <h3 class="text-black text-lg">University of Colorado Boulder</h3>
-      <div class="text-neutral-500 mb-0.5">2026 — 2028</div>
+      <div class="text-neutral-500 mb-0.5">2026 — 2027</div>
     </div>
     <p class="byline">
-      <b>Ms in AI — Pending Specialization</b>
+      <b>MS in AI — Accelerated Track</b>
     </p>
     <div class="flex justify-between items-end">
       <h3 class="text-black text-lg">Queen's University</h3>
@@ -402,6 +402,7 @@
     <ul>
       <li>AWS Certified AI Practitioner</li>
       <li>IBM AI Engineering</li>
+      <li>Claude Certified Architect Professional</li>
       <li>Stanford Machine Learning Specialization</li>
     </ul>
     <!-- <h3 class="font-medium mb-1">Finance:</h3> 

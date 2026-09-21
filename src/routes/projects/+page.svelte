@@ -114,9 +114,9 @@
       class:active={sortOrder === "date"}
       on:click={() => changeSortOrder("date")}
     >
-      All
+      AI Projects
     </button>
-    <button
+    <!-- <button
       class:active={sortOrder === "ai"}
       on:click={() => changeSortOrder("ai")}
     >
@@ -128,7 +128,7 @@
     >
       <BookOpenIcon size={18} strokeWidth={1.8} class="mr-1.5" /> Updates (Coming
       Soon)
-    </button>
+    </button> -->
   </div>
 </div>
 

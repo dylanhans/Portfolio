@@ -53,7 +53,7 @@
   class="layout-md text-black text-xl leading-tight font-light mb-10"
   id="dylan-text"
 >
-  <span class="g" />Engineer (FDSE/SWE)<span class="g">, </span><span class="g">
+  <span class="g" />Forward Deployed AI Engineer<span class="g">, </span><span class="g">
     interested in</span
   ><br />
   building applications, product, <span class="g">and</span> technology .<span
@@ -64,11 +64,7 @@
 <div class="layout-md text-lg space-y-10">
   <div class="space-y-5">
     <p>
-      AI Engineer based in Chicago pursuing a Master's in Artificial
-      Intelligence at the University of Colorado Boulder. Obtained Computer
-      Engineering degree from Queen's University, specializing in Software and
-      AI, with experience across teaching, research, and building production AI
-      systems.
+      Based in Chicago pursuing a Master's in Artificial Intelligence at the University of Colorado Boulder. Computer Engineering graduate from Queen's University, specialized in Software and AI. Experience spanning production AI systems, full-stack development, teaching, and research.
     </p>
 
     <p>
@@ -102,40 +98,32 @@
       </a>
     {/each}
   </div>
-  <div class="space-y-5">
-    <p style="font-size: smaller; ">
-      <b style="font-weight: 500;">Languages:</b> Python, C/C++, Java, JavaScript,
-      TypeScript, HTML/CSS, SQL
-    </p>
-    <p style="font-size: smaller; margin: 0;">
-      <b style="font-weight: 500;">Infrastructure & Databases:</b> Docker, Kubernetes,
-      AWS, Azure, GCP, PostgreSQL, MongoDB, Redis, Kafka
-    </p>
-    <p style="font-size: smaller; margin: 0;">
-      <b style="font-weight: 500;">Frameworks & Libraries:</b> ReactJS, Node.js,
-      Express.js, FastAPI, Pandas
-    </p>
-    <p style="font-size: smaller; margin: 0;">
-      <b style="font-weight: 500;">AI/ML:</b> TensorFlow, LangChain, Hugging Face,
-      RAG
-    </p>
-    <p style="font-size: smaller; margin: 0;">
-      <b style="font-weight: 500;">Tools & Practices:</b> Git, Jira, Agile, Scrum,
-      TDD, CI/CD
-    </p>
-    <p style="font-size: smaller; margin: 0;">
-      <b style="font-weight: 500;">Security:</b> OAuth, JWT, Sentry
-    </p>
-    <p style="font-size: smaller; margin: 0;">
-      <b style="font-weight: 500;">Certifications:</b> AWS Certified AI Practitioner,
-      IBM AI Professional Engineering Certificate, Stanford University ML Specialization
-    </p>
-  </div>
+  <div class="space-y-2">
+  <p style="font-size: smaller;">
+    <b style="font-weight: 500;">Development:</b> Python, TypeScript/JavaScript, SQL, FastAPI, React, Node.js, Pandas, LangChain, LangGraph, Guardrails
+  </p>
+  <p style="font-size: smaller;">
+    <b style="font-weight: 500;">Infrastructure:</b> AWS, Azure, Docker, Kubernetes, Terraform IaC, REST APIs, ETL, Microservices, PostgreSQL, MongoDB, Redis, Kafka
+  </p>
+  <p style="font-size: smaller;">
+    <b style="font-weight: 500;">AI/ML:</b> LLM APIs, Agent Orchestration (MCP), RAG Pipelines, Vector DBs, Prompt Engineering, Model Evaluation, Cost Optimization, Deployments, LLMOps/Observability
+  </p>
+  <p style="font-size: smaller;">
+    <b style="font-weight: 500;">Tools:</b> Git, Jira, Agile, Scrum, TDD, CI/CD
+  </p>
+  <p style="font-size: smaller;">
+    <b style="font-weight: 500;">Security:</b> OAuth, JWT, RBAC, SOC2
+  </p>
+  <p style="font-size: smaller;">
+    <b style="font-weight: 500;">Certifications:</b> Claude Certified Architect Professional, AWS Certified AI Practitioner,
+    IBM AI Professional Engineering Certificate, Stanford University ML Specialization
+  </p>
+</div>
   <div class="icon-container space-y-4">
     <img
       src="/svelte.jpeg"
       class="icon"
-      alt="Website Code"
+      alt="Perosnl Website Code"
       style="filter: grayscale(100%); width: 7%; height: auto;"
     />
     <a class="link" href="https://github.com/dylanhans/Portfolio">
